@@ -419,6 +419,9 @@
 <node TEXT="Press &quot;W&quot; to being &quot;Specials&#xa;Menu and select &quot;Subdivide&quot;" ID="ID_412860657" CREATED="1474207574031" MODIFIED="1474207626173"/>
 <node TEXT="Select &quot;View&quot; value" ID="ID_543121175" CREATED="1474207918796" MODIFIED="1474207945586"/>
 </node>
+<node TEXT="Operator Example" FOLDED="true" ID="ID_1639631162" CREATED="1474313732502" MODIFIED="1474313736877">
+<node TEXT="import bpy&#xa;&#xa;def rename_selected(context, x):&#xa;    &quot;&quot;&quot;rename selected object to string x&quot;&quot;&quot;&#xa;    for ob in context.selected_objects:&#xa;        ob.name = x # change the object name&#xa;&#xa;class RenameSelected(bpy.types.Operator):&#xa;    &quot;&quot;&quot;Rename selected objects&quot;&quot;&quot;&#xa;    bl_idname= &quot;object.rename_selected&quot;&#xa;    bl_label = &quot;Rename Selected&quot;&#xa;    bl_options = {&apos;UNDO&apos;,&apos;REGISTER&apos;}&#xa;    new_name = bpy.props.StringProperty(default = &apos;steer&apos;)&#xa;    def execute(self,context):&#xa;        rename_selected(context, self.new_name)&#xa;        return {&apos;FINISHED&apos;}&#xa;&#xa;bpy.utils.register_class(RenameSelected)" ID="ID_1239575765" CREATED="1474313738124" MODIFIED="1474313745017"/>
+</node>
 <node TEXT="Importing&#xa;Reference&#xa;Material" FOLDED="true" ID="ID_986703915" CREATED="1474054012653" MODIFIED="1474054029547">
 <node TEXT="2 ways" FOLDED="true" ID="ID_1943404241" CREATED="1474058055580" MODIFIED="1474058058040">
 <node TEXT="Background images" FOLDED="true" ID="ID_533103186" CREATED="1474058078661" MODIFIED="1474058085661">
