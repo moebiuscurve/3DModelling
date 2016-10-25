@@ -3,7 +3,7 @@
 <node TEXT="3D Modelling" FOLDED="false" ID="ID_1043183880" CREATED="1472796794111" MODIFIED="1472797106594" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="4.0">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
+    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -1158,6 +1158,11 @@
 <node TEXT="Loop cut for ear" ID="ID_1932344135" CREATED="1477397342442" MODIFIED="1477397348032"/>
 <node TEXT="Inset a face for ear" ID="ID_462733926" CREATED="1477397427831" MODIFIED="1477397433684"/>
 <node TEXT="Pull the insetted face&#xa;out to make ear" ID="ID_1897641829" CREATED="1477397434450" MODIFIED="1477397459749"/>
+</node>
+<node TEXT="Creating Low-Poly&#xa;Chess Rook" FOLDED="true" ID="ID_528240311" CREATED="1477415510266" MODIFIED="1477415522674">
+<node TEXT="Duplicate Low-Poly&#xa;Chess Base" ID="ID_1295141255" CREATED="1475235707519" MODIFIED="1475235723048"/>
+<node TEXT="Change Background&#xa;to Chess Rook" ID="ID_1906767427" CREATED="1477415603493" MODIFIED="1477415617308"/>
+<node TEXT="Well, you know&#xa;what to do..." ID="ID_780676998" CREATED="1477416727521" MODIFIED="1477416745853"/>
 </node>
 </node>
 <node TEXT="Using The&#xa;Bevel Tool" FOLDED="true" ID="ID_70568271" CREATED="1474979668362" MODIFIED="1474995565652">
