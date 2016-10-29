@@ -3,7 +3,7 @@
 <node TEXT="3D Modelling" FOLDED="false" ID="ID_1043183880" CREATED="1472796794111" MODIFIED="1472797106594" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="4.0">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -81,8 +81,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Blender" FOLDED="true" POSITION="right" ID="ID_1048597531" CREATED="1474909129272" MODIFIED="1474909131969">
+<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Blender" POSITION="right" ID="ID_1048597531" CREATED="1474909129272" MODIFIED="1474909131969">
 <edge COLOR="#00007c"/>
 <node TEXT="FAQs" FOLDED="true" ID="ID_824250249" CREATED="1472881891355" MODIFIED="1472881895277">
 <node TEXT="Group Objects" FOLDED="true" ID="ID_521504952" CREATED="1472881896380" MODIFIED="1472881906094">
@@ -270,7 +270,7 @@
 <node TEXT="Rigging" ID="ID_288217401" CREATED="1476781948816" MODIFIED="1476781951423"/>
 <node TEXT="Animation" ID="ID_1506324378" CREATED="1476465226897" MODIFIED="1476465229487"/>
 <node TEXT="Blender&#xa;Scripting" ID="ID_1123837277" CREATED="1476781923147" MODIFIED="1476781934448"/>
-<node TEXT="Blender&#xa;Basics" FOLDED="true" ID="ID_891280193" CREATED="1472797652577" MODIFIED="1476464037503">
+<node TEXT="Blender&#xa;Basics" ID="ID_891280193" CREATED="1472797652577" MODIFIED="1476464037503">
 <font BOLD="true"/>
 <node TEXT="Verices Edges&#xa;and Faces" FOLDED="true" ID="ID_880682142" CREATED="1472894174114" MODIFIED="1472932108983">
 <node TEXT="Object Mode and Edit Mode" FOLDED="true" ID="ID_1680236222" CREATED="1472894196390" MODIFIED="1472894345980">
@@ -1499,6 +1499,114 @@
 </node>
 <node TEXT="&quot;set active object as camera&quot;" ID="ID_1373237821" CREATED="1477540475443" MODIFIED="1477540484013"/>
 </node>
+<node TEXT="Being Lean" FOLDED="true" ID="ID_890520151" CREATED="1477637337544" MODIFIED="1477637341870">
+<node TEXT="Think about the&#xa;process of" FOLDED="true" ID="ID_1577911474" CREATED="1477637378588" MODIFIED="1477637404042">
+<node TEXT="Construction" FOLDED="true" ID="ID_1887440955" CREATED="1477637407051" MODIFIED="1477637414761">
+<node TEXT="How it is made" ID="ID_437054469" CREATED="1477637415956" MODIFIED="1477637420577"/>
+</node>
+<node TEXT="Rendering" FOLDED="true" ID="ID_15409306" CREATED="1477637423419" MODIFIED="1477637427678">
+<node TEXT="What will it look like" ID="ID_912411534" CREATED="1477637428726" MODIFIED="1477637437109"/>
+</node>
+<node TEXT="Rigging and&#xa;Animating" FOLDED="true" ID="ID_1513849973" CREATED="1477637439413" MODIFIED="1477637450074">
+<node TEXT="How will it move" ID="ID_1512389839" CREATED="1477637452763" MODIFIED="1477637458765"/>
+</node>
+</node>
+<node TEXT="Thiking Lean" FOLDED="true" ID="ID_527311595" CREATED="1477637491595" MODIFIED="1477637495553">
+<node TEXT="What happens if the lamp&#xa;cannot move because&#xa;something is in the wrong&#xa;place or obstructing" ID="ID_1891749568" CREATED="1477637501551" MODIFIED="1477637544050"/>
+<node TEXT="If you had made the entire lamp,&#xa;you could have a much bigger&#xa;task or even have to start again" ID="ID_131582423" CREATED="1477637581131" MODIFIED="1477637641198"/>
+<node TEXT="What happens if the lamp looks&#xa;wrong or the lighting is incorrect" ID="ID_1038629719" CREATED="1477637684271" MODIFIED="1477637714262"/>
+<node TEXT="Without checking as you are going&#xa;you may be wasting a lot of yours&#xa;and your computers energy" FOLDED="true" ID="ID_1755900466" CREATED="1477637722951" MODIFIED="1477637766989">
+<node TEXT="Rendering takes time,&#xa;sometimes a lot of time" ID="ID_1865402455" CREATED="1477637772546" MODIFIED="1477637788698"/>
+</node>
+</node>
+</node>
+<node TEXT="Cycles vs&#xa;Blender&#xa;Render" ID="ID_1443296927" CREATED="1477642829496" MODIFIED="1477642865190">
+<node TEXT="Blender Render&#xa;uses CPU only" ID="ID_94779167" CREATED="1477642876579" MODIFIED="1477642898565"/>
+<node TEXT="Cycles is a physical&#xa;based renderer" ID="ID_701881251" CREATED="1477642910560" MODIFIED="1477643049853"/>
+<node TEXT="Cyles is accurate&#xa;but takes longer" ID="ID_23456191" CREATED="1477642934461" MODIFIED="1477643058712"/>
+<node TEXT="Cycles is designed&#xa;for GPUs but runs&#xa;fine on CPUs" ID="ID_1380108424" CREATED="1477643012112" MODIFIED="1477643676804"/>
+<node TEXT="The 2 rendering engines&#xa;are not cross compatible" FOLDED="true" ID="ID_157764623" CREATED="1477643705893" MODIFIED="1477643739559">
+<node TEXT="no switching" ID="ID_957241085" CREATED="1477643729481" MODIFIED="1477643733084"/>
+</node>
+<node TEXT="You can use other&#xa;Renderers too..." FOLDED="true" ID="ID_1147315027" CREATED="1477643756843" MODIFIED="1477644503211">
+<node TEXT="Link" FOLDED="true" ID="ID_205525404" CREATED="1477644584371" MODIFIED="1477644587599">
+<node TEXT="https://www.blender.org/download/external-renderers/" ID="ID_1518994796" CREATED="1477644592229" MODIFIED="1477644592229" LINK="https://www.blender.org/download/external-renderers/"/>
+</node>
+<node TEXT="Renderers" FOLDED="true" ID="ID_1961305213" CREATED="1477644604101" MODIFIED="1477644607923">
+<node TEXT="Mitsuba" FOLDED="true" ID="ID_973213555" CREATED="1477644608878" MODIFIED="1477644613042">
+<node TEXT="PBRT" ID="ID_745967742" CREATED="1477645176358" MODIFIED="1477645178366"/>
+<node TEXT="C++" ID="ID_1569530308" CREATED="1477645183483" MODIFIED="1477645185380"/>
+<node TEXT="Unbiased as&#xa;well as Biased" ID="ID_60208101" CREATED="1477645189714" MODIFIED="1477645215643"/>
+<node TEXT="Heavy optimization&#xa;targeted towards&#xa;current CPU&#xa;architectures" ID="ID_671023394" CREATED="1477645231397" MODIFIED="1477645265021"/>
+<node TEXT="Strong emphasis&#xa;on experimental&#xa;rendering techniques" FOLDED="true" ID="ID_1443660919" CREATED="1477645277428" MODIFIED="1477645307435">
+<node TEXT="path based formulations of&#xa;Metropolis Light Transport" ID="ID_918445223" CREATED="1477645311605" MODIFIED="1477645387686"/>
+<node TEXT="Volumetric Modelling approached" ID="ID_275932570" CREATED="1477645367144" MODIFIED="1477645377752"/>
+</node>
+</node>
+<node TEXT="LuxRender" FOLDED="true" ID="ID_473676451" CREATED="1477644614221" MODIFIED="1477644617766">
+<node TEXT="phycially correct" ID="ID_298243324" CREATED="1477645414151" MODIFIED="1477645428047"/>
+<node TEXT="unbiased image synthesis" ID="ID_800582323" CREATED="1477645428589" MODIFIED="1477645437535"/>
+<node TEXT="both unbiased &amp; biased" FOLDED="true" ID="ID_196946189" CREATED="1477645463602" MODIFIED="1477645484711">
+<node TEXT="unbiased" FOLDED="true" ID="ID_1258433756" CREATED="1477645486303" MODIFIED="1477645489886">
+<node TEXT="MLT/bidir Path Tracing" ID="ID_16902856" CREATED="1477645491029" MODIFIED="1477645517862"/>
+</node>
+<node TEXT="biased" ID="ID_1686416717" CREATED="1477645521667" MODIFIED="1477645525024">
+<node TEXT="directlighting" ID="ID_1286835097" CREATED="1477645528173" MODIFIED="1477645534101"/>
+<node TEXT="photonmapping" ID="ID_1608190803" CREATED="1477645536280" MODIFIED="1477645541694"/>
+</node>
+</node>
+<node TEXT="physically correct light sources" ID="ID_278790131" CREATED="1477645552948" MODIFIED="1477645569444"/>
+<node TEXT="advanced procedural textures" ID="ID_1095207130" CREATED="1477645570267" MODIFIED="1477645580207"/>
+<node TEXT="spectral light calculus" ID="ID_1116015439" CREATED="1477645582062" MODIFIED="1477645587445"/>
+<node TEXT="motion blur" ID="ID_564588105" CREATED="1477645589624" MODIFIED="1477645596807"/>
+<node TEXT="lightgroup blending" ID="ID_957561690" CREATED="1477645603705" MODIFIED="1477645623258"/>
+<node TEXT="tight integration with Blender" ID="ID_1901917786" CREATED="1477645625187" MODIFIED="1477645632147"/>
+</node>
+<node TEXT="Yafaray" FOLDED="true" ID="ID_92620504" CREATED="1477648508631" MODIFIED="1477648521020">
+<node TEXT="ray tracer" ID="ID_524342384" CREATED="1477648522738" MODIFIED="1477648528013"/>
+<node TEXT="global illumination" ID="ID_1856416225" CREATED="1477648528362" MODIFIED="1477648532789"/>
+<node TEXT="Photon mapping" ID="ID_1953104593" CREATED="1477648534662" MODIFIED="1477648538301"/>
+<node TEXT="photorealistic rendering" ID="ID_401269781" CREATED="1477648545975" MODIFIED="1477648553771"/>
+</node>
+<node TEXT="The Bounty" FOLDED="true" ID="ID_1012744947" CREATED="1477649377988" MODIFIED="1477649385110">
+<node TEXT="a fork of YafaRay" ID="ID_108941822" CREATED="1477649386402" MODIFIED="1477649396060"/>
+</node>
+<node TEXT="Aqsis" FOLDED="true" ID="ID_284205318" CREATED="1477648568700" MODIFIED="1477648571452">
+<node TEXT="Cross-platform 3D&#xa;rendering solution" ID="ID_1011757385" CREATED="1477648581782" MODIFIED="1477648706264"/>
+<node TEXT="Adheres to&#xa;RenderMan&#xa;standard" FOLDED="true" ID="ID_1138759826" CREATED="1477648597007" MODIFIED="1477648697370">
+<node TEXT="RenderMan standard is defined&#xa;by Pixar Animation Studios for&#xa;professional production rendering" ID="ID_873402851" CREATED="1477648615683" MODIFIED="1477648662344"/>
+</node>
+<node TEXT="Focusing on stability&#xa;and production usage" ID="ID_1701337225" CREATED="1477648713566" MODIFIED="1477648730802"/>
+<node TEXT="constructive solid geometry" ID="ID_1604371155" CREATED="1477648751180" MODIFIED="1477648765882"/>
+<node TEXT="depth-of-field" ID="ID_36975072" CREATED="1477648770304" MODIFIED="1477648779851"/>
+<node TEXT="extensible shading&#xa;engine (DSOs)" ID="ID_183953661" CREATED="1477648780218" MODIFIED="1477648797403"/>
+<node TEXT="instancing" ID="ID_203074495" CREATED="1477648804388" MODIFIED="1477648808027"/>
+<node TEXT="level-of-detail" ID="ID_733344573" CREATED="1477648808682" MODIFIED="1477648817627"/>
+<node TEXT="motion blur" ID="ID_1354948442" CREATED="1477648819575" MODIFIED="1477648822711"/>
+<node TEXT="NURBS" ID="ID_379432283" CREATED="1477648823156" MODIFIED="1477648827640"/>
+<node TEXT="procedural plugins" ID="ID_827689415" CREATED="1477648828894" MODIFIED="1477648837615"/>
+<node TEXT="programmable shading" ID="ID_854259544" CREATED="1477648840994" MODIFIED="1477648848903"/>
+<node TEXT="subdivision surfaces" ID="ID_1129985081" CREATED="1477648850383" MODIFIED="1477648857660"/>
+<node TEXT="subpixel displacements" ID="ID_741540786" CREATED="1477648858895" MODIFIED="1477648873016"/>
+<node TEXT="Blender integration is&#xa;handled by MOSAIC plugin" FOLDED="true" ID="ID_1866785687" CREATED="1477648876245" MODIFIED="1477648894156">
+<node TEXT="which allows rendering to all&#xa;popular RenderMan renderers" ID="ID_1512395310" CREATED="1477648911602" MODIFIED="1477648941350"/>
+</node>
+</node>
+<node TEXT="POV-Ray" FOLDED="true" ID="ID_1421010579" CREATED="1477648999436" MODIFIED="1477649003707">
+<node TEXT="oldest free and Open&#xa;Source 3D renderer" ID="ID_359411873" CREATED="1477649010624" MODIFIED="1477649032742"/>
+<node TEXT="Generates images from a text-based&#xa;scene description language" ID="ID_1081873082" CREATED="1477649040912" MODIFIED="1477649077387"/>
+<node TEXT="supports mathematically&#xa;defined primitives as well&#xa;as their polygonal counterparts" ID="ID_1500673817" CREATED="1477649088575" MODIFIED="1477649125968"/>
+<node TEXT="A Turing-complete scene&#xa;description language (SDL)&#xa;that supports macros and loops" ID="ID_268868240" CREATED="1477649163165" MODIFIED="1477649202883"/>
+<node TEXT="Subsurface Scattering&#xa;(sss) and translucency" ID="ID_1395348513" CREATED="1477649214691" MODIFIED="1477649238752"/>
+<node TEXT="Atmospheric effects such as&#xa;fog and media (smoke, clouds)" ID="ID_637527478" CREATED="1477649247654" MODIFIED="1477649281147"/>
+<node TEXT="Photon mapping" ID="ID_1860824164" CREATED="1477649304144" MODIFIED="1477649308177"/>
+<node TEXT="Pause and restart a&#xa;render after shutdown" ID="ID_996897688" CREATED="1477649313356" MODIFIED="1477649333968"/>
+<node TEXT="Real Time&#xa;Rendering mode" ID="ID_710954246" CREATED="1477649339419" MODIFIED="1477649350243"/>
+</node>
+<node TEXT="Jot" ID="ID_160914788" CREATED="1477649405345" MODIFIED="1477649406973"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="Keyboard&#xa;Shortcuts" FOLDED="true" ID="ID_1278514843" CREATED="1472872757737" MODIFIED="1474909209023">
 <node TEXT="Select vertex, Edge&#xa;or Face in Edit Mode" FOLDED="true" ID="ID_1154575014" CREATED="1473218416160" MODIFIED="1473218468826">
@@ -1976,6 +2084,14 @@
 <node TEXT="3D" FOLDED="true" ID="ID_1222936814" CREATED="1476464208715" MODIFIED="1476464212799">
 <node TEXT="\latex&#xa;&#xa;\[&#xa;Scale(S_x, S_y, S_z) =&#xa;\left[ {\begin{array}{cc}&#xa;S_x &amp; 0 &amp; 0\\&#xa;0 &amp; S_y &amp; 0 \\&#xa;0 &amp; 0 &amp; S_z\end{array} } \right]&#xa;\]" ID="ID_785518823" CREATED="1476464229365" MODIFIED="1476464274972"/>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="Rendering" FOLDED="true" POSITION="left" ID="ID_1315170827" CREATED="1477645101380" MODIFIED="1477645103983">
+<edge COLOR="#7c7c00"/>
+<node TEXT="Keywords" FOLDED="true" ID="ID_1199694713" CREATED="1477645697058" MODIFIED="1477645699629">
+<node TEXT="PBRT" FOLDED="true" ID="ID_1284449231" CREATED="1477645721490" MODIFIED="1477645723423">
+<node TEXT="Physically&#xa;Based&#xa;Rendering" ID="ID_1187523109" CREATED="1477645724340" MODIFIED="1477645747486"/>
 </node>
 </node>
 </node>
