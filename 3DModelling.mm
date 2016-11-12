@@ -355,7 +355,1016 @@
 </node>
 <node TEXT="Rigging" ID="ID_288217401" CREATED="1476781948816" MODIFIED="1476781951423"/>
 <node TEXT="Animation" ID="ID_1506324378" CREATED="1476465226897" MODIFIED="1476465229487"/>
-<node TEXT="Blender&#xa;Scripting" ID="ID_1123837277" CREATED="1476781923147" MODIFIED="1476781934448"/>
+<node TEXT="Blender&#xa;Scripting" FOLDED="true" ID="ID_1123837277" CREATED="1476781923147" MODIFIED="1476781934448">
+<node TEXT="System Console" FOLDED="true" ID="ID_1994348818" CREATED="1478935825747" MODIFIED="1478935830302">
+<node TEXT="&lt;&lt;Window&gt;&gt;" FOLDED="true" ID="ID_1971608327" CREATED="1478935831091" MODIFIED="1478935854952">
+<node TEXT="&lt;&lt;Toggle System Console&gt;&gt;" ID="ID_388762932" CREATED="1478935838197" MODIFIED="1478935846112"/>
+</node>
+</node>
+<node TEXT="Screen Layout" FOLDED="true" ID="ID_337118588" CREATED="1478936011936" MODIFIED="1478936015482">
+<node TEXT="&quot;Scripting&quot;" FOLDED="true" ID="ID_145387700" CREATED="1478936016305" MODIFIED="1478936021313">
+<node TEXT="key views" FOLDED="true" ID="ID_938433410" CREATED="1478936050074" MODIFIED="1478936107458">
+<node TEXT="Python interactive&#xa;console" ID="ID_200463839" CREATED="1478936055793" MODIFIED="1478936066936"/>
+<node TEXT="Text Editor Window" ID="ID_131372573" CREATED="1478936079549" MODIFIED="1478936086695"/>
+<node TEXT="Info Bar" FOLDED="true" ID="ID_1056823894" CREATED="1478936098750" MODIFIED="1478936101282">
+<node TEXT="acts as log" ID="ID_1503278811" CREATED="1478936133906" MODIFIED="1478936138164"/>
+<node TEXT="describes&#xa;all actions" ID="ID_450100702" CREATED="1478936140637" MODIFIED="1478936185241"/>
+</node>
+</node>
+</node>
+<node TEXT="&quot;Ctrl + Up&quot; to&#xa;maximize" ID="ID_1506975760" CREATED="1478938697203" MODIFIED="1478938722433"/>
+<node TEXT="key views" FOLDED="true" ID="ID_255240932" CREATED="1478936050074" MODIFIED="1478936107458">
+<node TEXT="Python&#xa;interactive&#xa;console" FOLDED="true" ID="ID_1997131465" CREATED="1478936055793" MODIFIED="1478939004089">
+<node TEXT="&quot;Ctrl + Space&quot;&#xa;to autocomplete" ID="ID_2080790" CREATED="1478942381671" MODIFIED="1478942406936"/>
+</node>
+<node TEXT="Text Editor&#xa;Window" FOLDED="true" ID="ID_42229308" CREATED="1478936079549" MODIFIED="1478938994571">
+<node TEXT="Enabling&#xa;line nos" ID="ID_1804463723" CREATED="1478938897700" MODIFIED="1478938968964"/>
+<node TEXT="Enabling&#xa;word wrap" ID="ID_1070235866" CREATED="1478938913637" MODIFIED="1478938976516"/>
+<node TEXT="Syntax&#xa;Highlighting" ID="ID_1192736334" CREATED="1478938921156" MODIFIED="1478938983232"/>
+<node TEXT="+ button on the&#xa;left hand side" ID="ID_962795875" CREATED="1478938933625" MODIFIED="1478938947359"/>
+<node TEXT="Save text to&#xa;external files" ID="ID_1863961214" CREATED="1478939043913" MODIFIED="1478939054122"/>
+<node TEXT="Load an&#xa;external file" ID="ID_560692268" CREATED="1478939060863" MODIFIED="1478939071372"/>
+<node TEXT="&quot;Run&quot;" ID="ID_993276145" CREATED="1478939093133" MODIFIED="1478939098009"/>
+</node>
+<node TEXT="Info Bar" FOLDED="true" ID="ID_1233461742" CREATED="1478936098750" MODIFIED="1478936101282">
+<node TEXT="acts as log" ID="ID_263016245" CREATED="1478936133906" MODIFIED="1478936138164"/>
+<node TEXT="describes&#xa;all actions" ID="ID_133702600" CREATED="1478936140637" MODIFIED="1478936185241"/>
+</node>
+</node>
+</node>
+<node TEXT="Scripts&#xa;Example" FOLDED="true" ID="ID_701898061" CREATED="1478939396699" MODIFIED="1478939405875">
+<node TEXT="Duplicate Object" FOLDED="true" ID="ID_1218342889" CREATED="1478939406916" MODIFIED="1478939411512">
+<node TEXT="import bpy&#xa;bpy.ops.object.duplicate()" ID="ID_1081511350" CREATED="1478939415523" MODIFIED="1478939502905"/>
+</node>
+</node>
+<node TEXT="Blender API" FOLDED="true" ID="ID_983827132" CREATED="1478946487587" MODIFIED="1478946494413">
+<node TEXT="Can" FOLDED="true" ID="ID_816528735" CREATED="1478946495818" MODIFIED="1478946498669">
+<node TEXT="Edit any data the&#xa;user interface can" FOLDED="true" ID="ID_1307710221" CREATED="1478946524114" MODIFIED="1478946568031">
+<node TEXT="Scenes, Meshes,&#xa;Particles etc." ID="ID_118593533" CREATED="1478946540064" MODIFIED="1478946587887"/>
+</node>
+<node TEXT="Modify user preferences,&#xa;keymaps and themes" ID="ID_1155120152" CREATED="1478946608376" MODIFIED="1478946620514"/>
+<node TEXT="Run tools with&#xa;own settings" ID="ID_1564238862" CREATED="1478946637682" MODIFIED="1478946648583"/>
+<node TEXT="Create user interface elements&#xa;such as menus, headers &amp; panels" ID="ID_468717579" CREATED="1478946664082" MODIFIED="1478946687772"/>
+<node TEXT="Create new tools" ID="ID_1963438026" CREATED="1478946709195" MODIFIED="1478946711240"/>
+<node TEXT="Create interactive tools" ID="ID_1355434770" CREATED="1478946725245" MODIFIED="1478946729202"/>
+<node TEXT="Create new rendering engines&#xa;that integrate with Blender" ID="ID_1311971288" CREATED="1478946740489" MODIFIED="1478946752553"/>
+<node TEXT="Define new settings in&#xa;existing Blender data" ID="ID_271910520" CREATED="1478946762558" MODIFIED="1478946772410"/>
+<node TEXT="Draw in the 3D view using OpenGL&#xa;commands from Python" ID="ID_584396319" CREATED="1478946780990" MODIFIED="1478946793204"/>
+</node>
+<node TEXT="Can&apos;t (yet)" FOLDED="true" ID="ID_170403669" CREATED="1478946502887" MODIFIED="1478946846935">
+<node ID="ID_806052526" CREATED="1478946862564" MODIFIED="1478946862564"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    Create new space types
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Assign custom properties&#xa;to every type" ID="ID_1221911942" CREATED="1478946874571" MODIFIED="1478946886148"/>
+<node TEXT="Define callbacks or listeners to&#xa;be notified when data is changed" ID="ID_467641846" CREATED="1478946897878" MODIFIED="1478946907542"/>
+</node>
+<node TEXT="Key Concepts" FOLDED="true" ID="ID_15407610" CREATED="1478946935678" MODIFIED="1478946937779">
+<node TEXT="Data Access" FOLDED="true" ID="ID_888834293" CREATED="1478946955779" MODIFIED="1478946960917">
+<node TEXT="Accessing DataBlocks" FOLDED="true" ID="ID_1696745109" CREATED="1478946963973" MODIFIED="1478946975486">
+<node TEXT="Python accesses Blender&#x2019;s data&#xa;in the same way as the animation&#xa;system and user interface" FOLDED="true" ID="ID_789711189" CREATED="1478947484083" MODIFIED="1478947519023">
+<node TEXT="this implies that any setting that&#xa;can be changed via a button can&#xa;also be changed from Python" ID="ID_57673514" CREATED="1478947509460" MODIFIED="1478947530855"/>
+</node>
+<node TEXT="bpy.data" FOLDED="true" ID="ID_526122387" CREATED="1478947566735" MODIFIED="1478947574517">
+<node TEXT="Accessing data from the&#xa;currently loaded blend file&#xa;is done with this module" ID="ID_563966139" CREATED="1478947580039" MODIFIED="1478947811033"/>
+<node TEXT="Gives access to library data" ID="ID_1842759906" CREATED="1478947627035" MODIFIED="1478947645074"/>
+</node>
+<node TEXT="Examples" FOLDED="true" ID="ID_1500567966" CREATED="1478947659773" MODIFIED="1478947663825">
+<node TEXT="&gt;&gt;&gt; bpy.data.objects" FOLDED="true" ID="ID_50409023" CREATED="1478947704570" MODIFIED="1478947704570">
+<node TEXT="&lt;bpy_collection[3], BlendDataObjects&gt;" ID="ID_1213443729" CREATED="1478947704570" MODIFIED="1478947704570"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.data.scenes" FOLDED="true" ID="ID_857857210" CREATED="1478947786115" MODIFIED="1478947786115">
+<node TEXT="&lt;bpy_collection[1], BlendDataScenes&gt;" ID="ID_239757579" CREATED="1478947786115" MODIFIED="1478947786115"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.data.materials" FOLDED="true" ID="ID_1729967378" CREATED="1478947741003" MODIFIED="1478947741003">
+<node TEXT="&lt;bpy_collection[1], BlendDataMaterials&gt;" ID="ID_848503466" CREATED="1478947741003" MODIFIED="1478947741003"/>
+</node>
+</node>
+</node>
+<node TEXT="About Collections" FOLDED="true" ID="ID_499385131" CREATED="1478947831731" MODIFIED="1478947836513">
+<node TEXT="an index as well as a string&#xa;can be used to access&#xa;members of the collection" FOLDED="true" ID="ID_1614704722" CREATED="1478947853904" MODIFIED="1478947889490">
+<node TEXT="Unlike Python&#x2019;s dictionaries,&#xa;both methods are acceptable" ID="ID_1182585116" CREATED="1478947920824" MODIFIED="1478947934225"/>
+<node TEXT="the index of a member may&#xa;change while running Blender" ID="ID_294678009" CREATED="1478947954386" MODIFIED="1478947970172"/>
+</node>
+<node TEXT="Examples" FOLDED="true" ID="ID_1235871528" CREATED="1478948050082" MODIFIED="1478948052272">
+<node TEXT="&gt;&gt;&gt; list(bpy.data.objects)" FOLDED="true" ID="ID_819311139" CREATED="1478948053548" MODIFIED="1478948053548">
+<node TEXT="[bpy.data.objects[&apos;Camera&apos;], bpy.data.objects[&apos;Cube&apos;], bpy.data.objects[&apos;Lamp&apos;]]" ID="ID_61139649" CREATED="1478948053548" MODIFIED="1478948053548"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.data.objects[&apos;Cube&apos;]" FOLDED="true" ID="ID_896196077" CREATED="1478948131625" MODIFIED="1478948131625">
+<node TEXT="bpy.data.objects[&apos;Cube&apos;]" ID="ID_1442703598" CREATED="1478948131625" MODIFIED="1478948131625"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.data.objects[1]" FOLDED="true" ID="ID_1441708929" CREATED="1478948148687" MODIFIED="1478948148687">
+<node TEXT="bpy.data.objects[&apos;Cube&apos;]" ID="ID_1050058786" CREATED="1478948148687" MODIFIED="1478948148687"/>
+</node>
+</node>
+</node>
+<node TEXT="Accessing Attributes" FOLDED="true" ID="ID_79301580" CREATED="1478953659679" MODIFIED="1478953665869">
+<node TEXT="Once you have a data block, such as a material,&#xa;object, groups etc., its attributes can be accessed&#xa;much like you would change a setting using the&#xa;graphical interface. In fact, the tooltip for each button&#xa;also displays the Python attribute which can help in&#xa;finding what settings to change in a script." ID="ID_1239823788" CREATED="1478953675332" MODIFIED="1478953857256"/>
+<node TEXT="Examples" FOLDED="true" ID="ID_1522819660" CREATED="1478953920613" MODIFIED="1478953923084">
+<node TEXT="&gt;&gt;&gt; bpy.data.objects[0].name" FOLDED="true" ID="ID_1686755399" CREATED="1478953925877" MODIFIED="1478953925877">
+<node TEXT="&apos;Camera&apos;" ID="ID_871245928" CREATED="1478953925877" MODIFIED="1478953925877"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.data.scenes[&apos;Scene&apos;]" FOLDED="true" ID="ID_351666198" CREATED="1478953998199" MODIFIED="1478953998199">
+<node TEXT="bpy.data.scenes[&apos;Scene&apos;]" ID="ID_1534900481" CREATED="1478953998199" MODIFIED="1478953998199"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.data.materials.new(&apos;MyMaterial&apos;)" FOLDED="true" ID="ID_1249612545" CREATED="1478954096638" MODIFIED="1478954096638">
+<node TEXT="bpy.data.materials[&apos;MyMaterial&apos;]" ID="ID_1846609085" CREATED="1478954096638" MODIFIED="1478954096638"/>
+</node>
+</node>
+<node TEXT="For testing what data to access it&#x2019;s&#xa;useful to use the &#x201c;Console&#x201d;, which&#xa;is its own space type" FOLDED="true" ID="ID_246174047" CREATED="1478954156266" MODIFIED="1478954166976">
+<node TEXT="This supports auto-complete, giving you a&#xa;fast way to dig into different data in your file." ID="ID_1590993968" CREATED="1478954180159" MODIFIED="1478954197009"/>
+</node>
+<node TEXT="Example of a data path that can&#xa;be quickly found via the console:" FOLDED="true" ID="ID_1816179122" CREATED="1478954260910" MODIFIED="1478954272218">
+<node TEXT="&gt;&gt;&gt; bpy.data.scenes[0].render.resolution_percentage" FOLDED="true" ID="ID_725030494" CREATED="1478954321547" MODIFIED="1478954321547">
+<node TEXT="50" ID="ID_792533000" CREATED="1478954321547" MODIFIED="1478954321547"/>
+</node>
+<node TEXT="&gt;&gt;&gt; list(bpy.data.scenes[0].objects[&apos;Cube&apos;].data.vertices)" FOLDED="true" ID="ID_1521744824" CREATED="1478954498714" MODIFIED="1478954498714">
+<node TEXT="[bpy.data.meshes[&apos;Cube&apos;].vertices[0], bpy.data.meshes[&apos;Cube&apos;].vertices[1], bpy.data.meshes[&apos;Cube&apos;].vertices[2], bpy.data.meshes[&apos;Cube&apos;].vertices[3], bpy.data.meshes[&apos;Cube&apos;].vertices[4], bpy.data.meshes[&apos;Cube&apos;].vertices[5], bpy.data.meshes[&apos;Cube&apos;].vertices[6], bpy.data.meshes[&apos;Cube&apos;].vertices[7]]" ID="ID_1270671447" CREATED="1478954498714" MODIFIED="1478954498714"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.data.scenes[0].objects[&apos;Cube&apos;].data.vertices[1].co.x" FOLDED="true" ID="ID_463573962" CREATED="1478954534321" MODIFIED="1478954534321">
+<node TEXT="1.0" ID="ID_654298155" CREATED="1478954534321" MODIFIED="1478954534321"/>
+</node>
+</node>
+</node>
+<node TEXT="Data Creation/Removal" FOLDED="true" ID="ID_231204383" CREATED="1478954572050" MODIFIED="1478954577934">
+<node TEXT="Those of you familiar with other Python API&#x2019;s&#xa;may be surprised that new data-blocks in the&#xa;bpy API can&#x2019;t be created by calling the class:" FOLDED="true" ID="ID_1881308585" CREATED="1478954650022" MODIFIED="1478954683562">
+<node TEXT="&gt;&gt;&gt; bpy.types.Mesh()" FOLDED="true" ID="ID_107903413" CREATED="1478954740311" MODIFIED="1478954740311">
+<node TEXT="Traceback (most recent call last):&#xa;File &quot;&lt;blender_console&gt;&quot;, line 1, in &lt;module&gt;&#xa;TypeError: bpy_struct.__new__(type): expected a single argument" ID="ID_604719696" CREATED="1478954820490" MODIFIED="1478954824199"/>
+</node>
+</node>
+<node ID="ID_889866737" CREATED="1478954857974" MODIFIED="1478954857974"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    This is an intentional part of the API design
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="The Blender/Python API can&#x2019;t create Blender&#xa;data that exists outside the main Blender&#xa;database (accessed through bpy.data)" FOLDED="true" ID="ID_272501423" CREATED="1478954898691" MODIFIED="1478954920640">
+<node TEXT="because this data is managed by&#xa;Blender (save/load/undo/append... etc)" ID="ID_1825783048" CREATED="1478954939428" MODIFIED="1478954977392"/>
+</node>
+<node TEXT="Data is added and removed via&#xa;methods on the collections in&#xa;bpy.data" ID="ID_1016123436" CREATED="1478955020423" MODIFIED="1478955057007"/>
+<node TEXT="Examples of Data&#xa;Creation/Removal" FOLDED="true" ID="ID_995425520" CREATED="1478955074574" MODIFIED="1478955419670">
+<node TEXT="&gt;&gt;&gt; mesh = bpy.data.meshes.new(name=&quot;MyMesh&quot;)&#xa;&gt;&gt;&gt; print(mesh)" FOLDED="true" ID="ID_1468561147" CREATED="1478955251106" MODIFIED="1478955258283">
+<node TEXT="&lt;bpy_struct, Mesh(&quot;MyMesh&quot;)&gt;" ID="ID_493595644" CREATED="1478955237782" MODIFIED="1478955237782"/>
+</node>
+<node TEXT="&gt;&gt;&gt; list(bpy.data.meshes)" FOLDED="true" ID="ID_1277731159" CREATED="1478955325882" MODIFIED="1478955340803">
+<node ID="ID_1365921518" CREATED="1478955341936" MODIFIED="1478955341936"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [bpy.data.meshes['Cube'], bpy.data.meshes['MyMesh']]
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.data.meshes.remove(mesh)" ID="ID_583128241" CREATED="1478955391945" MODIFIED="1478955391945"/>
+<node TEXT="&gt;&gt;&gt; list(bpy.data.meshes)" FOLDED="true" ID="ID_1393598493" CREATED="1478955401461" MODIFIED="1478955401461">
+<node TEXT="[bpy.data.meshes[&apos;Cube&apos;]]" ID="ID_743302048" CREATED="1478955401461" MODIFIED="1478955401461"/>
+</node>
+</node>
+</node>
+<node TEXT="Custom Properties" FOLDED="true" ID="ID_509070009" CREATED="1478955449521" MODIFIED="1478955453192">
+<node TEXT="Python can access properties on&#xa;any datablock that has an ID" ID="ID_307030621" CREATED="1478955489278" MODIFIED="1478955502553"/>
+<node TEXT="data that can be linked in&#xa;&amp; accessed from bpy.data" ID="ID_1166809332" CREATED="1478955528754" MODIFIED="1478955542506"/>
+<node TEXT=" When assigning a property, you&#xa;can make up your own names" FOLDED="true" ID="ID_1460586624" CREATED="1478955564666" MODIFIED="1478955573463">
+<node TEXT="these will be created when needed&#xa;or overwritten if they exist" ID="ID_564636306" CREATED="1478955585717" MODIFIED="1478955597221"/>
+</node>
+<node TEXT="This data is saved with the blend&#xa;file and copied with objects." FOLDED="true" ID="ID_1675218623" CREATED="1478955633779" MODIFIED="1478955639782">
+<node TEXT="bpy.context.object[&quot;MyOwnProperty&quot;] = 42&#xa;&#xa;if &quot;SomeProp&quot; in bpy.context.object:&#xa;    print(&quot;Property found&quot;)&#xa;&#xa;# Use the get function like a Python dictionary&#xa;# which can have a fallback value.&#xa;value = bpy.data.scenes[&quot;Scene&quot;].get(&quot;test_prop&quot;, &quot;fallback value&quot;)&#xa;&#xa;# dictionaries can be assigned as long as they only use basic types.&#xa;group = bpy.data.groups.new(&quot;MyTestGroup&quot;)&#xa;group[&quot;GameSettings&quot;] = {&quot;foo&quot;: 10, &quot;bar&quot;: &quot;spam&quot;, &quot;baz&quot;: {}}&#xa;&#xa;del group[&quot;GameSettings&quot;]" ID="ID_440956410" CREATED="1478955667411" MODIFIED="1478955669176"/>
+</node>
+<node TEXT="that these properties can only be&#xa;assigned basic Python types" FOLDED="true" ID="ID_985583560" CREATED="1478955750966" MODIFIED="1478955755583">
+<node ID="ID_483079522" CREATED="1478955763100" MODIFIED="1478955763100"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    int, float, string
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_47884821" CREATED="1478955772442" MODIFIED="1478955772442"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    array of ints/floats
+  </body>
+</html>
+</richcontent>
+</node>
+<node FOLDED="true" ID="ID_554033601" CREATED="1478955788998" MODIFIED="1478955788998"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    dictionary
+  </body>
+</html>
+</richcontent>
+<node TEXT="only string keys&#xa;are supported" ID="ID_718234968" CREATED="1478955795725" MODIFIED="1478955805533"/>
+<node TEXT="values must be&#xa;basic types too" ID="ID_1117885973" CREATED="1478955812888" MODIFIED="1478955822242"/>
+</node>
+</node>
+<node TEXT="These properties are valid&#xa;outside of Python" FOLDED="true" ID="ID_1955828107" CREATED="1478955872857" MODIFIED="1478955877720">
+<node ID="ID_1373696612" CREATED="1478955887980" MODIFIED="1478955887980"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    can be animated by curves
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="can be used in driver paths" ID="ID_1406623136" CREATED="1478955893900" MODIFIED="1478955902242"/>
+</node>
+</node>
+</node>
+<node TEXT="Context" FOLDED="true" ID="ID_420483107" CREATED="1478947095880" MODIFIED="1478947099913">
+<node TEXT="Background" FOLDED="true" ID="ID_910536647" CREATED="1478955967621" MODIFIED="1478955970996">
+<node TEXT="While it&#x2019;s useful to be able to access data&#xa;directly by name or as a list, it&#x2019;s more&#xa;common to operate on the user&#x2019;s selection" ID="ID_977227822" CREATED="1478955972371" MODIFIED="1478956011836"/>
+</node>
+<node TEXT="The context is always&#xa;available from bpy.contex" FOLDED="true" ID="ID_209140679" CREATED="1478956048921" MODIFIED="1478956054558">
+<node TEXT="can be used to get the active&#xa;object, scene, tool settings&#xa;along with many other attributes" ID="ID_906946376" CREATED="1478956065525" MODIFIED="1478956091661"/>
+</node>
+<node TEXT="Common-use cases" FOLDED="true" ID="ID_1906123303" CREATED="1478956134183" MODIFIED="1478956135249">
+<node TEXT="&gt;&gt;&gt; bpy.context.object" FOLDED="true" ID="ID_1221447429" CREATED="1478956162831" MODIFIED="1478956162831">
+<node TEXT="bpy.data.objects[&apos;Cube&apos;]" ID="ID_1579606416" CREATED="1478956162831" MODIFIED="1478956162831"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.context.selected_objects" FOLDED="true" ID="ID_199687691" CREATED="1478956197667" MODIFIED="1478956197667">
+<node TEXT="[bpy.data.objects[&apos;Cube&apos;]]" ID="ID_1470771974" CREATED="1478956197667" MODIFIED="1478956197667"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.context.visible_bones" ID="ID_1278847659" CREATED="1478956292864" MODIFIED="1478956292864"/>
+</node>
+<node TEXT="the context is read-only" FOLDED="true" ID="ID_400309424" CREATED="1478956314486" MODIFIED="1478956315493">
+<node TEXT="These values cannot be modified directly" ID="ID_489893948" CREATED="1478956327147" MODIFIED="1478956351727"/>
+<node ID="ID_1185045730" CREATED="1478956490419" MODIFIED="1478956490419"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <code class="docutils literal"><span class="pre">bpy.context.object</span> <span class="pre">=</span> <span class="pre">obj</span></code> will raise an error
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="the values may be changed&#xa;by running API functions" ID="ID_1949509531" CREATED="1478956338935" MODIFIED="1478956420661"/>
+<node TEXT="the values may be changed&#xa;using the data API" FOLDED="true" ID="ID_666104218" CREATED="1478956368223" MODIFIED="1478956434753">
+<node ID="ID_904590697" CREATED="1478956522939" MODIFIED="1478956532004"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <code class="docutils literal"><span class="pre">bpy.context.scene.objects.active</span>&#160;<span class="pre">=</span>&#160;<span class="pre">obj</span></code>&#160;will work as expected
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="The context attributes&#xa;change depending on&#xa;where they are accessed" FOLDED="true" ID="ID_1010613845" CREATED="1478956948128" MODIFIED="1478956973746">
+<node TEXT="3D view has different context&#xa;members than the console" ID="ID_1905371702" CREATED="1478956986797" MODIFIED="1478956999559"/>
+<node TEXT="take care when accessing context&#xa;attributes that the user state is known" ID="ID_1344524407" CREATED="1478957018493" MODIFIED="1478957025025"/>
+</node>
+</node>
+<node TEXT="Operators(Tools)" ID="ID_442635120" CREATED="1478947100549" MODIFIED="1478947117069"/>
+</node>
+<node TEXT="Integration" ID="ID_1656999476" CREATED="1478957237294" MODIFIED="1478957240083"/>
+</node>
+<node TEXT="Modules" FOLDED="true" ID="ID_1214482293" CREATED="1478942290564" MODIFIED="1478942292703">
+<node TEXT="Hierarchy" FOLDED="true" ID="ID_511574446" CREATED="1478942515997" MODIFIED="1478957966178">
+<node TEXT="bpy" FOLDED="true" ID="ID_878765474" CREATED="1478942707965" MODIFIED="1478957966178">
+<node TEXT="app" ID="ID_913951031" CREATED="1478942707965" MODIFIED="1478942707965"/>
+<node TEXT="context" FOLDED="true" ID="ID_1045252156" CREATED="1478942707965" MODIFIED="1478942707965">
+<node TEXT="active_base" ID="ID_1267400998" CREATED="1478958067306" MODIFIED="1478958067306"/>
+<node TEXT="active_bone" ID="ID_917829391" CREATED="1478958067306" MODIFIED="1478958067306"/>
+<node TEXT="active_gpencil_brush" ID="ID_1705826257" CREATED="1478958067307" MODIFIED="1478958067307"/>
+<node TEXT="active_gpencil_frame" ID="ID_562524559" CREATED="1478958067308" MODIFIED="1478958067308"/>
+<node TEXT="active_gpencil_layer" ID="ID_491263251" CREATED="1478958067309" MODIFIED="1478958067309"/>
+<node TEXT="active_gpencil_palette" ID="ID_303447924" CREATED="1478958067310" MODIFIED="1478958067310"/>
+<node TEXT="active_gpencil_palettecolor" ID="ID_877645355" CREATED="1478958067312" MODIFIED="1478958067312"/>
+<node TEXT="active_object" ID="ID_1371666355" CREATED="1478958067313" MODIFIED="1478958067313"/>
+<node TEXT="active_operator" ID="ID_1647799206" CREATED="1478958067314" MODIFIED="1478958067314"/>
+<node TEXT="active_pose_bone" ID="ID_1719988853" CREATED="1478958067315" MODIFIED="1478958067315"/>
+<node TEXT="area" ID="ID_454314135" CREATED="1478958067316" MODIFIED="1478958067316"/>
+<node TEXT="as_pointer(" ID="ID_1605207426" CREATED="1478958067317" MODIFIED="1478958067317"/>
+<node TEXT="bl_rna" ID="ID_631122275" CREATED="1478958067318" MODIFIED="1478958067318"/>
+<node TEXT="blend_data" ID="ID_1824722847" CREATED="1478958067319" MODIFIED="1478958067319"/>
+<node TEXT="copy(" ID="ID_1595712136" CREATED="1478958067321" MODIFIED="1478958067321"/>
+<node TEXT="driver_add(" ID="ID_1379013922" CREATED="1478958067323" MODIFIED="1478958067323"/>
+<node TEXT="driver_remove(" ID="ID_1467954362" CREATED="1478958067324" MODIFIED="1478958067324"/>
+<node TEXT="edit_object" ID="ID_307828633" CREATED="1478958067325" MODIFIED="1478958067325"/>
+<node TEXT="editable_bases" ID="ID_588849018" CREATED="1478958067327" MODIFIED="1478958067327"/>
+<node TEXT="editable_bones" ID="ID_1005017456" CREATED="1478958067328" MODIFIED="1478958067328"/>
+<node TEXT="editable_gpencil_layers" ID="ID_1672458765" CREATED="1478958067329" MODIFIED="1478958067329"/>
+<node TEXT="editable_gpencil_strokes" ID="ID_277445131" CREATED="1478958067330" MODIFIED="1478958067330"/>
+<node TEXT="editable_objects" ID="ID_1266065007" CREATED="1478958067332" MODIFIED="1478958067332"/>
+<node TEXT="get(" ID="ID_1666798814" CREATED="1478958067333" MODIFIED="1478958067333"/>
+<node TEXT="gpencil_data" ID="ID_771313211" CREATED="1478958067334" MODIFIED="1478958067334"/>
+<node TEXT="gpencil_data_owner" ID="ID_1589399489" CREATED="1478958067335" MODIFIED="1478958067335"/>
+<node TEXT="id_data" ID="ID_1602627824" CREATED="1478958067336" MODIFIED="1478958067336"/>
+<node TEXT="image_paint_object" ID="ID_903805455" CREATED="1478958086280" MODIFIED="1478958086280"/>
+<node TEXT="is_property_hidden(" ID="ID_1867709660" CREATED="1478958086280" MODIFIED="1478958086280"/>
+<node TEXT="is_property_readonly(" ID="ID_1124739465" CREATED="1478958086282" MODIFIED="1478958086282"/>
+<node TEXT="is_property_set(" ID="ID_1782167897" CREATED="1478958086283" MODIFIED="1478958086283"/>
+<node TEXT="items(" ID="ID_619628471" CREATED="1478958086284" MODIFIED="1478958086284"/>
+<node TEXT="keyframe_delete(" ID="ID_381222546" CREATED="1478958086285" MODIFIED="1478958086285"/>
+<node TEXT="keyframe_insert(" ID="ID_931194089" CREATED="1478958086287" MODIFIED="1478958086287"/>
+<node TEXT="keys(" ID="ID_412012335" CREATED="1478958086288" MODIFIED="1478958086288"/>
+<node TEXT="mode" ID="ID_576054502" CREATED="1478958086289" MODIFIED="1478958086289"/>
+<node TEXT="object" ID="ID_677743024" CREATED="1478958086290" MODIFIED="1478958086290"/>
+<node TEXT="particle_edit_object" ID="ID_521868117" CREATED="1478958086290" MODIFIED="1478958086290"/>
+<node TEXT="path_from_id(" ID="ID_919103695" CREATED="1478958086291" MODIFIED="1478958086291"/>
+<node TEXT="path_resolve(" ID="ID_1473365095" CREATED="1478958086293" MODIFIED="1478958086293"/>
+<node TEXT="property_unset(" ID="ID_156096639" CREATED="1478958086293" MODIFIED="1478958086293"/>
+<node TEXT="region" ID="ID_491782929" CREATED="1478958086294" MODIFIED="1478958086294"/>
+<node TEXT="region_data" ID="ID_474105003" CREATED="1478958086295" MODIFIED="1478958086295"/>
+<node TEXT="rna_type" ID="ID_1772645775" CREATED="1478958086295" MODIFIED="1478958086295"/>
+<node TEXT="scene" ID="ID_473120066" CREATED="1478958086296" MODIFIED="1478958086296"/>
+<node TEXT="screen" ID="ID_1312040656" CREATED="1478958086296" MODIFIED="1478958086296"/>
+<node TEXT="sculpt_object" ID="ID_1972703332" CREATED="1478958086297" MODIFIED="1478958086297"/>
+<node TEXT="selectable_bases" ID="ID_395007728" CREATED="1478958086297" MODIFIED="1478958086297"/>
+<node TEXT="selectable_objects" ID="ID_245777406" CREATED="1478958086298" MODIFIED="1478958086298"/>
+<node TEXT="selected_bases" ID="ID_137251141" CREATED="1478958086298" MODIFIED="1478958086298"/>
+<node TEXT="selected_bones" ID="ID_579171001" CREATED="1478958086299" MODIFIED="1478958086299"/>
+<node TEXT="selected_editable_bases" ID="ID_987484679" CREATED="1478958086300" MODIFIED="1478958086300"/>
+<node TEXT="selected_editable_bones" ID="ID_480341020" CREATED="1478958086300" MODIFIED="1478958086300"/>
+<node TEXT="selected_editable_objects" ID="ID_405551612" CREATED="1478958086301" MODIFIED="1478958086301"/>
+<node TEXT="selected_editable_sequences" ID="ID_357424333" CREATED="1478958086301" MODIFIED="1478958086301"/>
+<node TEXT="selected_objects" ID="ID_1066342393" CREATED="1478958086302" MODIFIED="1478958086302"/>
+<node TEXT="selected_pose_bones" ID="ID_329164565" CREATED="1478958086303" MODIFIED="1478958086303"/>
+<node TEXT="selected_sequences" ID="ID_753767158" CREATED="1478958086304" MODIFIED="1478958086304"/>
+<node TEXT="sequences" ID="ID_1354106189" CREATED="1478958086304" MODIFIED="1478958086304"/>
+<node TEXT="space_data" ID="ID_120338769" CREATED="1478958100999" MODIFIED="1478958100999"/>
+<node TEXT="tool_settings" ID="ID_1037610007" CREATED="1478958100999" MODIFIED="1478958100999"/>
+<node TEXT="type_recast(" ID="ID_1173455232" CREATED="1478958101000" MODIFIED="1478958101000"/>
+<node TEXT="user_preferences" ID="ID_1394473009" CREATED="1478958101000" MODIFIED="1478958101000"/>
+<node TEXT="values(" ID="ID_1527495484" CREATED="1478958101000" MODIFIED="1478958101000"/>
+<node TEXT="vertex_paint_object" ID="ID_20717680" CREATED="1478958101001" MODIFIED="1478958101001"/>
+<node TEXT="visible_bases" ID="ID_1782780590" CREATED="1478958101001" MODIFIED="1478958101001"/>
+<node TEXT="visible_bones" ID="ID_904425649" CREATED="1478958101001" MODIFIED="1478958101001"/>
+<node TEXT="visible_gpencil_layers" ID="ID_1493389667" CREATED="1478958101001" MODIFIED="1478958101001"/>
+<node TEXT="visible_objects" ID="ID_1329385112" CREATED="1478958101001" MODIFIED="1478958101001"/>
+<node TEXT="visible_pose_bones" ID="ID_853855977" CREATED="1478958101001" MODIFIED="1478958101001"/>
+<node TEXT="weight_paint_object" ID="ID_1782114854" CREATED="1478958101001" MODIFIED="1478958101001"/>
+<node TEXT="window" ID="ID_952115374" CREATED="1478958101001" MODIFIED="1478958101001"/>
+<node TEXT="window_manager" ID="ID_1237925245" CREATED="1478958101002" MODIFIED="1478958101002"/>
+</node>
+<node TEXT="data" FOLDED="true" ID="ID_1531197045" CREATED="1478942856732" MODIFIED="1478942903133">
+<node TEXT="actions" ID="ID_738849333" CREATED="1478942856732" MODIFIED="1478942856732"/>
+<node TEXT="armatures" ID="ID_418666703" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="as_pointer(" ID="ID_185789671" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="bl_rna" ID="ID_176454264" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="brushes" ID="ID_106470657" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="cache_files" ID="ID_1174284607" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="cameras" ID="ID_592843287" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="curves" ID="ID_991577269" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="driver_add(" ID="ID_1970812587" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="driver_remove(" ID="ID_722561407" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="filepath" ID="ID_1405009067" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="fonts" ID="ID_740260026" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="get(" ID="ID_1914189322" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="grease_pencil" ID="ID_998618456" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="groups" ID="ID_1382802705" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="id_data" ID="ID_130329393" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="images" ID="ID_146905429" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="is_dirty" ID="ID_912960556" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="is_property_hidden(" ID="ID_384676382" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="is_property_readonly(" ID="ID_1049389777" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="is_property_set(" ID="ID_481709518" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="is_saved" ID="ID_1209580624" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="items(" ID="ID_135577269" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="keyframe_delete(" ID="ID_704880293" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="keyframe_insert(" ID="ID_1946450026" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="keys(" ID="ID_846133974" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="lamps" ID="ID_1739570121" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="lattices" ID="ID_1705368979" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="libraries" ID="ID_86358845" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="linestyles" ID="ID_1757627430" CREATED="1478942856733" MODIFIED="1478942858890"/>
+<node TEXT="masks" ID="ID_1402331677" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="materials" ID="ID_1513710360" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="meshes" ID="ID_519309511" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="metaballs" ID="ID_1737703115" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="movieclips" ID="ID_1728044950" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="node_groups" ID="ID_940658402" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="objects" FOLDED="true" ID="ID_537605058" CREATED="1478942856733" MODIFIED="1478942856733">
+<node TEXT="&gt;&gt;&gt; bpy.data.objects" FOLDED="true" ID="ID_345239666" CREATED="1478943034312" MODIFIED="1478943034312">
+<node TEXT="&lt;bpy_collection[3], BlendDataObjects&gt;" ID="ID_1712492993" CREATED="1478943034312" MODIFIED="1478943034312"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.data.objects[&apos;" FOLDED="true" ID="ID_10593984" CREATED="1478943148182" MODIFIED="1478943148182">
+<node TEXT="Camera&apos;]" ID="ID_1961381169" CREATED="1478943148182" MODIFIED="1478943148182"/>
+<node TEXT="Cube&apos;]" ID="ID_665425376" CREATED="1478943148182" MODIFIED="1478943148182"/>
+<node TEXT="Lamp&apos;]" ID="ID_1611697203" CREATED="1478943148182" MODIFIED="1478943148182"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.data.objects[&apos;Cube&apos;]" FOLDED="true" ID="ID_563319359" CREATED="1478943318172" MODIFIED="1478943318172">
+<node TEXT="bpy.data.objects[&apos;Cube&apos;]" ID="ID_1250676392" CREATED="1478943318172" MODIFIED="1478943318172"/>
+</node>
+<node TEXT="bpy.data.objects[&apos;Cube&apos;]" FOLDED="true" ID="ID_1172192354" CREATED="1478943318172" MODIFIED="1478943318172">
+<node TEXT="active_material" ID="ID_935520049" CREATED="1478943616130" MODIFIED="1478943616130"/>
+<node TEXT="active_material_index" ID="ID_52690633" CREATED="1478943616130" MODIFIED="1478943616130"/>
+<node TEXT="active_shape_key" ID="ID_393480961" CREATED="1478943616131" MODIFIED="1478943616131"/>
+<node TEXT="active_shape_key_index" ID="ID_1542201867" CREATED="1478943616132" MODIFIED="1478943616132"/>
+<node TEXT="animation_data" ID="ID_835409503" CREATED="1478943616132" MODIFIED="1478943616132"/>
+<node TEXT="animation_data_clear(" ID="ID_782147927" CREATED="1478943616133" MODIFIED="1478943616133"/>
+<node TEXT="animation_data_create(" ID="ID_816442697" CREATED="1478943616134" MODIFIED="1478943616134"/>
+<node TEXT="animation_visualization" ID="ID_1628071590" CREATED="1478943616135" MODIFIED="1478943616135"/>
+<node TEXT="as_pointer(" ID="ID_444666425" CREATED="1478943616135" MODIFIED="1478943616135"/>
+<node TEXT="bl_rna" ID="ID_1298054683" CREATED="1478943616136" MODIFIED="1478943616136"/>
+<node TEXT="bound_box" ID="ID_237312784" CREATED="1478943616137" MODIFIED="1478943616137"/>
+<node TEXT="cache_release(" ID="ID_1626066578" CREATED="1478943616137" MODIFIED="1478943616137"/>
+<node TEXT="calc_matrix_camera(" ID="ID_1815817770" CREATED="1478943616138" MODIFIED="1478943616138"/>
+<node TEXT="camera_fit_coords(" ID="ID_1617381328" CREATED="1478943616139" MODIFIED="1478943616139"/>
+<node TEXT="children" ID="ID_1340370577" CREATED="1478943616139" MODIFIED="1478943616139"/>
+<node TEXT="closest_point_on_mesh(" ID="ID_1974729508" CREATED="1478943616140" MODIFIED="1478943616140"/>
+<node TEXT="collision" ID="ID_778256385" CREATED="1478943616141" MODIFIED="1478943616141"/>
+<node TEXT="color" ID="ID_288588854" CREATED="1478943616141" MODIFIED="1478943616141"/>
+<node TEXT="constraints" ID="ID_103953909" CREATED="1478943632650" MODIFIED="1478943632650"/>
+<node TEXT="convert_space(" ID="ID_1116392972" CREATED="1478943632650" MODIFIED="1478943632650"/>
+<node TEXT="copy(" ID="ID_735624365" CREATED="1478943632652" MODIFIED="1478943632652"/>
+<node TEXT="cycles" ID="ID_1724687174" CREATED="1478943632653" MODIFIED="1478943632653"/>
+<node TEXT="cycles_visibility" ID="ID_1875148705" CREATED="1478943632654" MODIFIED="1478943632654"/>
+<node TEXT="data" ID="ID_1813995734" CREATED="1478943632656" MODIFIED="1478943632656"/>
+<node TEXT="delta_location" ID="ID_1424696983" CREATED="1478943632657" MODIFIED="1478943632657"/>
+<node TEXT="delta_rotation_euler" ID="ID_166483839" CREATED="1478943632658" MODIFIED="1478943632658"/>
+<node TEXT="delta_rotation_quaternion" ID="ID_417964312" CREATED="1478943632659" MODIFIED="1478943632659"/>
+<node TEXT="delta_scale" ID="ID_730575500" CREATED="1478943632660" MODIFIED="1478943632660"/>
+<node TEXT="dimensions" ID="ID_1705150364" CREATED="1478943632662" MODIFIED="1478943632662"/>
+<node TEXT="draw_bounds_type" ID="ID_1843880287" CREATED="1478943632663" MODIFIED="1478943632663"/>
+<node TEXT="draw_type" ID="ID_1774584461" CREATED="1478943632664" MODIFIED="1478943632664"/>
+<node TEXT="driver_add(" ID="ID_851070330" CREATED="1478943632665" MODIFIED="1478943632665"/>
+<node TEXT="driver_remove(" ID="ID_46878886" CREATED="1478943632667" MODIFIED="1478943632667"/>
+<node TEXT="dupli_faces_scale" ID="ID_127410157" CREATED="1478943632670" MODIFIED="1478943632670"/>
+<node TEXT="dupli_frames_end" ID="ID_682547465" CREATED="1478943632672" MODIFIED="1478943632672"/>
+<node TEXT="dupli_frames_off" ID="ID_989939466" CREATED="1478943655675" MODIFIED="1478943655675"/>
+<node TEXT="dupli_frames_on" ID="ID_338843878" CREATED="1478943655675" MODIFIED="1478943655675"/>
+<node TEXT="dupli_frames_start" ID="ID_900749427" CREATED="1478943655677" MODIFIED="1478943655677"/>
+<node TEXT="dupli_group" ID="ID_1383995701" CREATED="1478943655678" MODIFIED="1478943655678"/>
+<node TEXT="dupli_list" ID="ID_188357581" CREATED="1478943655679" MODIFIED="1478943655679"/>
+<node TEXT="dupli_list_clear(" ID="ID_1515148975" CREATED="1478943655680" MODIFIED="1478943655680"/>
+<node TEXT="dupli_list_create(" ID="ID_400197450" CREATED="1478943655681" MODIFIED="1478943655681"/>
+<node TEXT="dupli_type" ID="ID_1073122501" CREATED="1478943655683" MODIFIED="1478943655683"/>
+<node TEXT="empty_draw_size" ID="ID_1021823986" CREATED="1478943655684" MODIFIED="1478943655684"/>
+<node TEXT="empty_draw_type" ID="ID_923151309" CREATED="1478943655685" MODIFIED="1478943655685"/>
+<node TEXT="empty_image_offset" ID="ID_965973121" CREATED="1478943655686" MODIFIED="1478943655686"/>
+<node TEXT="field" ID="ID_173451729" CREATED="1478943655687" MODIFIED="1478943655687"/>
+<node TEXT="find_armature(" ID="ID_1419378770" CREATED="1478943655688" MODIFIED="1478943655688"/>
+<node TEXT="game" ID="ID_239051119" CREATED="1478943655689" MODIFIED="1478943655689"/>
+<node TEXT="get(" ID="ID_1628356849" CREATED="1478943655689" MODIFIED="1478943655689"/>
+<node TEXT="grease_pencil" ID="ID_438611385" CREATED="1478943677483" MODIFIED="1478943677483"/>
+<node TEXT="hide" ID="ID_845103843" CREATED="1478943677483" MODIFIED="1478943677483"/>
+<node TEXT="hide_render" ID="ID_1739274217" CREATED="1478943677484" MODIFIED="1478943677484"/>
+<node TEXT="hide_select" ID="ID_169741221" CREATED="1478943677485" MODIFIED="1478943677485"/>
+<node TEXT="id_data" ID="ID_932072836" CREATED="1478943677486" MODIFIED="1478943677486"/>
+<node TEXT="image_user" ID="ID_499408011" CREATED="1478943677488" MODIFIED="1478943677488"/>
+<node TEXT="is_deform_modified(" ID="ID_1963989790" CREATED="1478943677489" MODIFIED="1478943677489"/>
+<node TEXT="is_duplicator" ID="ID_1805952640" CREATED="1478943677489" MODIFIED="1478943677489"/>
+<node TEXT="is_library_indirect" ID="ID_978994134" CREATED="1478943677490" MODIFIED="1478943677490"/>
+<node TEXT="is_modified(" ID="ID_419219124" CREATED="1478943677491" MODIFIED="1478943677491"/>
+<node TEXT="is_property_hidden(" ID="ID_580426588" CREATED="1478943677492" MODIFIED="1478943677492"/>
+<node TEXT="is_property_readonly(" ID="ID_123927221" CREATED="1478943677493" MODIFIED="1478943677493"/>
+<node TEXT="is_property_set(" ID="ID_467167192" CREATED="1478943677493" MODIFIED="1478943677493"/>
+<node TEXT="is_updated" ID="ID_1516550493" CREATED="1478943677494" MODIFIED="1478943677494"/>
+<node TEXT="is_updated_data" ID="ID_385176837" CREATED="1478943677495" MODIFIED="1478943677495"/>
+<node TEXT="is_visible(" ID="ID_371046637" CREATED="1478943677496" MODIFIED="1478943677496"/>
+<node TEXT="items(" ID="ID_1145342927" CREATED="1478943677497" MODIFIED="1478943677497"/>
+<node TEXT="keyframe_delete(" ID="ID_339037487" CREATED="1478943677499" MODIFIED="1478943677499"/>
+<node TEXT="keyframe_insert(" ID="ID_763644449" CREATED="1478943677500" MODIFIED="1478943677500"/>
+<node TEXT="keys(" ID="ID_1613462457" CREATED="1478943677501" MODIFIED="1478943677501"/>
+<node TEXT="layers" ID="ID_580963189" CREATED="1478943677502" MODIFIED="1478943677502"/>
+<node TEXT="layers_local_view" ID="ID_980801482" CREATED="1478943677504" MODIFIED="1478943677504"/>
+<node TEXT="library" ID="ID_847353377" CREATED="1478943677505" MODIFIED="1478943677505"/>
+<node TEXT="location" FOLDED="true" ID="ID_904837012" CREATED="1478943677506" MODIFIED="1478943677506">
+<node TEXT="&gt;&gt;&gt; bpy.data.objects[&apos;Cube&apos;].location=(1,2,3)" FOLDED="true" ID="ID_322446508" CREATED="1478943833145" MODIFIED="1478943833145">
+<node TEXT="The object moves&#xa;to new location" ID="ID_132116635" CREATED="1478943836573" MODIFIED="1478943847063"/>
+</node>
+</node>
+<node TEXT="lock_location" ID="ID_849701068" CREATED="1478943677507" MODIFIED="1478943677507"/>
+<node TEXT="lock_rotation" ID="ID_1174283949" CREATED="1478943677508" MODIFIED="1478943677508"/>
+<node TEXT="lock_rotation_w" ID="ID_380823252" CREATED="1478943677508" MODIFIED="1478943677508"/>
+<node TEXT="lock_rotations_4d" ID="ID_342456747" CREATED="1478943677509" MODIFIED="1478943677509"/>
+<node TEXT="lock_scale" ID="ID_503939446" CREATED="1478943677510" MODIFIED="1478943677510"/>
+<node TEXT="lod_levels" ID="ID_618692411" CREATED="1478943677511" MODIFIED="1478943677511"/>
+<node TEXT="material_slots" ID="ID_1224375708" CREATED="1478943677511" MODIFIED="1478943677511"/>
+<node TEXT="matrix_basis" ID="ID_182968760" CREATED="1478943677511" MODIFIED="1478943677511"/>
+<node TEXT="matrix_local" ID="ID_1304721774" CREATED="1478943677512" MODIFIED="1478943677512"/>
+<node TEXT="matrix_parent_inverse" ID="ID_1333976280" CREATED="1478943677512" MODIFIED="1478943677512"/>
+<node TEXT="matrix_world" ID="ID_688504719" CREATED="1478943677513" MODIFIED="1478943677513"/>
+<node TEXT="mode" ID="ID_788936023" CREATED="1478943677513" MODIFIED="1478943677513"/>
+<node TEXT="modifiers" ID="ID_1490257168" CREATED="1478943694247" MODIFIED="1478943694247"/>
+<node TEXT="motion_path" ID="ID_1251338115" CREATED="1478943694247" MODIFIED="1478943694247"/>
+<node TEXT="name" ID="ID_538875668" CREATED="1478943694248" MODIFIED="1478943694248"/>
+<node TEXT="parent" ID="ID_158296045" CREATED="1478943694249" MODIFIED="1478943694249"/>
+<node TEXT="parent_bone" ID="ID_1575110306" CREATED="1478943694250" MODIFIED="1478943694250"/>
+<node TEXT="parent_type" ID="ID_930814202" CREATED="1478943694251" MODIFIED="1478943694251"/>
+<node TEXT="parent_vertices" ID="ID_78883293" CREATED="1478943694251" MODIFIED="1478943694251"/>
+<node TEXT="particle_systems" ID="ID_1797522588" CREATED="1478943694252" MODIFIED="1478943694252"/>
+<node TEXT="pass_index" ID="ID_1951306794" CREATED="1478943694253" MODIFIED="1478943694253"/>
+<node TEXT="path_from_id(" ID="ID_457324250" CREATED="1478943694254" MODIFIED="1478943694254"/>
+<node TEXT="path_resolve(" ID="ID_453689445" CREATED="1478943694255" MODIFIED="1478943694255"/>
+<node TEXT="pose" ID="ID_1033963823" CREATED="1478943694256" MODIFIED="1478943694256"/>
+<node TEXT="pose_library" ID="ID_437665196" CREATED="1478943694256" MODIFIED="1478943694256"/>
+<node TEXT="preview" ID="ID_856948488" CREATED="1478943694258" MODIFIED="1478943694258"/>
+<node TEXT="property_unset(" ID="ID_195169513" CREATED="1478943694259" MODIFIED="1478943694259"/>
+<node TEXT="proxy" ID="ID_1717563553" CREATED="1478943694260" MODIFIED="1478943694260"/>
+<node TEXT="proxy_group" ID="ID_322700245" CREATED="1478943694261" MODIFIED="1478943694261"/>
+<node TEXT="ray_cast(" ID="ID_1886942154" CREATED="1478943694262" MODIFIED="1478943694262"/>
+<node TEXT="rigid_body" ID="ID_551625186" CREATED="1478943694263" MODIFIED="1478943694263"/>
+<node TEXT="rigid_body_constraint" ID="ID_1936015632" CREATED="1478943694264" MODIFIED="1478943694264"/>
+<node TEXT="rna_type" ID="ID_756642825" CREATED="1478943694266" MODIFIED="1478943694266"/>
+<node TEXT="rotation_axis_angle" ID="ID_874154002" CREATED="1478943694267" MODIFIED="1478943694267"/>
+<node TEXT="rotation_euler" ID="ID_570725920" CREATED="1478943694268" MODIFIED="1478943694268"/>
+<node TEXT="rotation_mode" ID="ID_1526515407" CREATED="1478943694270" MODIFIED="1478943694270"/>
+<node TEXT="rotation_quaternion" ID="ID_254688008" CREATED="1478943694270" MODIFIED="1478943694270"/>
+<node TEXT="scale" ID="ID_453709275" CREATED="1478943694271" MODIFIED="1478943694271"/>
+<node TEXT="select" ID="ID_421630080" CREATED="1478943694272" MODIFIED="1478943694272"/>
+<node TEXT="shape_key_add(" ID="ID_373108378" CREATED="1478943694274" MODIFIED="1478943694274"/>
+<node TEXT="shape_key_remove(" ID="ID_1137293371" CREATED="1478943694275" MODIFIED="1478943694275"/>
+<node TEXT="show_all_edges" ID="ID_1144264010" CREATED="1478943694276" MODIFIED="1478943694276"/>
+<node TEXT="show_axis" ID="ID_1873689505" CREATED="1478943694277" MODIFIED="1478943694277"/>
+<node TEXT="show_bounds" ID="ID_1219667514" CREATED="1478943694278" MODIFIED="1478943694278"/>
+<node TEXT="show_name" ID="ID_121540393" CREATED="1478943694279" MODIFIED="1478943694279"/>
+<node TEXT="show_only_shape_key" ID="ID_784638029" CREATED="1478943694281" MODIFIED="1478943694281"/>
+<node TEXT="show_texture_space" ID="ID_35256401" CREATED="1478943694281" MODIFIED="1478943694281"/>
+<node TEXT="show_transparent" ID="ID_1069924139" CREATED="1478943694282" MODIFIED="1478943694282"/>
+<node TEXT="show_wire" ID="ID_1965993415" CREATED="1478943713483" MODIFIED="1478943713483"/>
+<node TEXT="show_x_ray" ID="ID_1782533424" CREATED="1478943713483" MODIFIED="1478943713483"/>
+<node TEXT="slow_parent_offset" ID="ID_219698603" CREATED="1478943713484" MODIFIED="1478943713484"/>
+<node TEXT="soft_body" ID="ID_1678893556" CREATED="1478943713487" MODIFIED="1478943713487"/>
+<node TEXT="tag" ID="ID_774067205" CREATED="1478943713489" MODIFIED="1478943713489"/>
+<node TEXT="to_mesh(" ID="ID_1115279448" CREATED="1478943713490" MODIFIED="1478943713490"/>
+<node TEXT="track_axis" ID="ID_1228859679" CREATED="1478943713491" MODIFIED="1478943713491"/>
+<node TEXT="type" ID="ID_1195035107" CREATED="1478943713492" MODIFIED="1478943713492"/>
+<node TEXT="type_recast(" ID="ID_1822797522" CREATED="1478943713493" MODIFIED="1478943713493"/>
+<node TEXT="up_axis" ID="ID_1252262553" CREATED="1478943713494" MODIFIED="1478943713494"/>
+<node TEXT="update_from_editmode(" ID="ID_1677538739" CREATED="1478943713495" MODIFIED="1478943713495"/>
+<node TEXT="update_tag(" ID="ID_799566045" CREATED="1478943713496" MODIFIED="1478943713496"/>
+<node TEXT="use_dupli_faces_scale" ID="ID_1804686728" CREATED="1478943713496" MODIFIED="1478943713496"/>
+<node TEXT="use_dupli_frames_speed" ID="ID_1972643183" CREATED="1478943713498" MODIFIED="1478943713498"/>
+<node TEXT="use_dupli_vertices_rotation" ID="ID_1105254853" CREATED="1478943713498" MODIFIED="1478943713498"/>
+<node TEXT="use_dynamic_topology_sculpting" ID="ID_440182270" CREATED="1478943713499" MODIFIED="1478943713499"/>
+<node TEXT="use_extra_recalc_data" ID="ID_1658054794" CREATED="1478943713500" MODIFIED="1478943713500"/>
+<node TEXT="use_extra_recalc_object" ID="ID_1565790361" CREATED="1478943713501" MODIFIED="1478943713501"/>
+<node TEXT="use_fake_user" ID="ID_72188046" CREATED="1478943713502" MODIFIED="1478943713502"/>
+<node TEXT="use_shape_key_edit_mode" ID="ID_1536741424" CREATED="1478943713503" MODIFIED="1478943713503"/>
+<node TEXT="use_slow_parent" ID="ID_540218806" CREATED="1478943713504" MODIFIED="1478943713504"/>
+<node TEXT="user_clear(" ID="ID_608768744" CREATED="1478943713506" MODIFIED="1478943713506"/>
+<node TEXT="user_of_id(" ID="ID_1545584970" CREATED="1478943713507" MODIFIED="1478943713507"/>
+<node TEXT="user_remap(" ID="ID_1689186361" CREATED="1478943713508" MODIFIED="1478943713508"/>
+<node TEXT="users" ID="ID_204146053" CREATED="1478943713509" MODIFIED="1478943713509"/>
+<node TEXT="users_group" ID="ID_1239987178" CREATED="1478943713509" MODIFIED="1478943713509"/>
+<node TEXT="users_scene" ID="ID_1279573272" CREATED="1478943713510" MODIFIED="1478943713510"/>
+<node TEXT="values(" ID="ID_1562619485" CREATED="1478943713511" MODIFIED="1478943713511"/>
+<node TEXT="vertex_groups" ID="ID_1433355820" CREATED="1478943713511" MODIFIED="1478943713511"/>
+</node>
+</node>
+<node TEXT="paint_curves" ID="ID_297834947" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="palettes" ID="ID_356198035" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="particles" ID="ID_1869487100" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="path_from_id(" ID="ID_685611334" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="path_resolve(" ID="ID_1633418978" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="property_unset(" ID="ID_1170708301" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="rna_type" ID="ID_612199039" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="scenes" ID="ID_1065563276" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="screens" ID="ID_627624038" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="shape_keys" ID="ID_1808543341" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="sounds" ID="ID_192380856" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="speakers" ID="ID_472313037" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="texts" ID="ID_146290232" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="textures" ID="ID_1085721272" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="type_recast(" ID="ID_106716921" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="use_autopack" ID="ID_1023909704" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="user_map(" ID="ID_734878693" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="values(" ID="ID_1936549113" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="version" ID="ID_1134069603" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="window_managers" ID="ID_1904191335" CREATED="1478942856733" MODIFIED="1478942856733"/>
+<node TEXT="worlds" ID="ID_759819408" CREATED="1478942856733" MODIFIED="1478942856733"/>
+</node>
+<node TEXT="ops" FOLDED="true" ID="ID_1419236236" CREATED="1478973402443" MODIFIED="1478973404732">
+<node TEXT="action" ID="ID_431392945" CREATED="1478973458641" MODIFIED="1478973458641"/>
+<node TEXT="anim" ID="ID_1155027503" CREATED="1478973458641" MODIFIED="1478973458641"/>
+<node TEXT="armature" ID="ID_484296820" CREATED="1478973458642" MODIFIED="1478973458642"/>
+<node TEXT="boid" ID="ID_1496781376" CREATED="1478973458644" MODIFIED="1478973458644"/>
+<node TEXT="brush" ID="ID_335784161" CREATED="1478973458645" MODIFIED="1478973458645"/>
+<node TEXT="buttons" ID="ID_1891724653" CREATED="1478973458646" MODIFIED="1478973458646"/>
+<node TEXT="cachefile" ID="ID_1197233991" CREATED="1478973458647" MODIFIED="1478973458647"/>
+<node TEXT="camera" ID="ID_302112763" CREATED="1478973458648" MODIFIED="1478973458648"/>
+<node TEXT="clip" ID="ID_800950717" CREATED="1478973458649" MODIFIED="1478973458649"/>
+<node TEXT="cloth" ID="ID_875248774" CREATED="1478973458650" MODIFIED="1478973458650"/>
+<node TEXT="console" ID="ID_1875306154" CREATED="1478973458651" MODIFIED="1478973458651"/>
+<node TEXT="constraint" ID="ID_350917367" CREATED="1478973458652" MODIFIED="1478973458652"/>
+<node TEXT="curve" ID="ID_508774520" CREATED="1478973458652" MODIFIED="1478973458652"/>
+<node TEXT="cycles" ID="ID_184384149" CREATED="1478973458652" MODIFIED="1478973458652"/>
+<node TEXT="dpaint" ID="ID_1720621070" CREATED="1478973458653" MODIFIED="1478973458653"/>
+<node TEXT="ed" ID="ID_793975270" CREATED="1478973458654" MODIFIED="1478973458654"/>
+<node TEXT="export_anim" ID="ID_1879679920" CREATED="1478973458654" MODIFIED="1478973458654"/>
+<node TEXT="export_mesh" ID="ID_1911429701" CREATED="1478973458655" MODIFIED="1478973458655"/>
+<node TEXT="export_scene" ID="ID_1455205976" CREATED="1478973458656" MODIFIED="1478973458656"/>
+<node TEXT="file" ID="ID_552609653" CREATED="1478973476755" MODIFIED="1478973476755"/>
+<node TEXT="fluid" ID="ID_649677273" CREATED="1478973476755" MODIFIED="1478973476755"/>
+<node TEXT="font" ID="ID_999282498" CREATED="1478973476756" MODIFIED="1478973476756"/>
+<node TEXT="gpencil" ID="ID_1307059675" CREATED="1478973476757" MODIFIED="1478973476757"/>
+<node TEXT="graph" ID="ID_1465070025" CREATED="1478973476758" MODIFIED="1478973476758"/>
+<node TEXT="group" ID="ID_57709708" CREATED="1478973476758" MODIFIED="1478973476758"/>
+<node TEXT="image" ID="ID_1327788949" CREATED="1478973476759" MODIFIED="1478973476759"/>
+<node TEXT="import_anim" ID="ID_558479922" CREATED="1478973476759" MODIFIED="1478973476759"/>
+<node TEXT="import_curve" ID="ID_1238788539" CREATED="1478973476760" MODIFIED="1478973476760"/>
+<node TEXT="import_mesh" ID="ID_944147236" CREATED="1478973476761" MODIFIED="1478973476761"/>
+<node TEXT="import_scene" ID="ID_153854467" CREATED="1478973476761" MODIFIED="1478973476761"/>
+<node TEXT="info" ID="ID_632641434" CREATED="1478973476762" MODIFIED="1478973476762"/>
+<node TEXT="lamp" ID="ID_288005092" CREATED="1478973476762" MODIFIED="1478973476762"/>
+<node TEXT="lattice" ID="ID_218629781" CREATED="1478973476763" MODIFIED="1478973476763"/>
+<node TEXT="logic" ID="ID_1347953881" CREATED="1478973476764" MODIFIED="1478973476764"/>
+<node TEXT="marker" ID="ID_391796445" CREATED="1478973476764" MODIFIED="1478973476764"/>
+<node TEXT="mask" ID="ID_110007608" CREATED="1478973476765" MODIFIED="1478973476765"/>
+<node TEXT="material" ID="ID_1782215030" CREATED="1478973476766" MODIFIED="1478973476766"/>
+<node TEXT="mball" ID="ID_1434743205" CREATED="1478973476770" MODIFIED="1478973476770"/>
+<node TEXT="mesh" ID="ID_1117743542" CREATED="1478973476771" MODIFIED="1478973476771"/>
+<node TEXT="nla" ID="ID_1500527950" CREATED="1478973476772" MODIFIED="1478973476772"/>
+<node TEXT="node" ID="ID_1124691896" CREATED="1478973476772" MODIFIED="1478973476772"/>
+<node TEXT="object" ID="ID_55399444" CREATED="1478973476772" MODIFIED="1478973476772"/>
+<node TEXT="outliner" ID="ID_772924916" CREATED="1478973492260" MODIFIED="1478973492260"/>
+<node TEXT="paint" ID="ID_1030047904" CREATED="1478973492260" MODIFIED="1478973492260"/>
+<node TEXT="paintcurve" ID="ID_602933550" CREATED="1478973492262" MODIFIED="1478973492262"/>
+<node TEXT="palette" ID="ID_1619249723" CREATED="1478973492263" MODIFIED="1478973492263"/>
+<node TEXT="particle" ID="ID_1866405953" CREATED="1478973492264" MODIFIED="1478973492264"/>
+<node TEXT="pose" ID="ID_1256621603" CREATED="1478973492266" MODIFIED="1478973492266"/>
+<node TEXT="poselib" ID="ID_369471572" CREATED="1478973492267" MODIFIED="1478973492267"/>
+<node TEXT="ptcache" ID="ID_1619176704" CREATED="1478973492268" MODIFIED="1478973492268"/>
+<node TEXT="render" ID="ID_1859868492" CREATED="1478973492269" MODIFIED="1478973492269"/>
+<node TEXT="rigidbody" ID="ID_947960132" CREATED="1478973492270" MODIFIED="1478973492270"/>
+<node TEXT="safe_areas" ID="ID_143975560" CREATED="1478973492271" MODIFIED="1478973492271"/>
+<node TEXT="scene" ID="ID_101440534" CREATED="1478973492271" MODIFIED="1478973492271"/>
+<node TEXT="screen" ID="ID_1883728229" CREATED="1478973492272" MODIFIED="1478973492272"/>
+<node TEXT="script" ID="ID_987630103" CREATED="1478973492273" MODIFIED="1478973492273"/>
+<node TEXT="sculpt" ID="ID_1411727796" CREATED="1478973492274" MODIFIED="1478973492274"/>
+<node TEXT="sequencer" ID="ID_783731058" CREATED="1478973492275" MODIFIED="1478973492275"/>
+<node TEXT="sketch" ID="ID_465594040" CREATED="1478973492276" MODIFIED="1478973492276"/>
+<node TEXT="sound" ID="ID_34323059" CREATED="1478973492278" MODIFIED="1478973492278"/>
+<node TEXT="surface" ID="ID_1779308923" CREATED="1478973492279" MODIFIED="1478973492279"/>
+<node TEXT="text" ID="ID_1798778884" CREATED="1478973492280" MODIFIED="1478973492280"/>
+<node TEXT="texture" ID="ID_1779084441" CREATED="1478973492281" MODIFIED="1478973492281"/>
+<node TEXT="time" ID="ID_799663617" CREATED="1478973492282" MODIFIED="1478973492282"/>
+<node TEXT="transform" ID="ID_1945695341" CREATED="1478973492283" MODIFIED="1478973492283"/>
+<node TEXT="ui" ID="ID_170223606" CREATED="1478973492284" MODIFIED="1478973492284"/>
+<node TEXT="uv" ID="ID_1341139444" CREATED="1478973492285" MODIFIED="1478973492285"/>
+<node TEXT="view2d" ID="ID_436877582" CREATED="1478973504577" MODIFIED="1478973504577"/>
+<node TEXT="view3d" ID="ID_839970147" CREATED="1478973504577" MODIFIED="1478973504577"/>
+<node TEXT="wm" ID="ID_220414019" CREATED="1478973504578" MODIFIED="1478973504578"/>
+<node TEXT="world" ID="ID_1995642955" CREATED="1478973504578" MODIFIED="1478973504578"/>
+</node>
+<node TEXT="path" ID="ID_1579468521" CREATED="1478942707965" MODIFIED="1478943346975"/>
+<node TEXT="props" ID="ID_620751012" CREATED="1478942707965" MODIFIED="1478942707965"/>
+<node TEXT="types" ID="ID_377493831" CREATED="1478942707965" MODIFIED="1478942707965"/>
+<node TEXT="utils" ID="ID_448544276" CREATED="1478942707965" MODIFIED="1478942707965"/>
+</node>
+</node>
+</node>
+<node TEXT="Blender&#xa;Operator" FOLDED="true" ID="ID_1797808308" CREATED="1478972885296" MODIFIED="1478973031761">
+<node TEXT="Hierarchy" FOLDED="true" ID="ID_328706820" CREATED="1478973033516" MODIFIED="1478973037416">
+<node TEXT="bpy" FOLDED="true" ID="ID_1612045524" CREATED="1478973395618" MODIFIED="1478973397607">
+<node TEXT="ops" FOLDED="true" ID="ID_858154703" CREATED="1478973402443" MODIFIED="1478973404732">
+<node TEXT="action" ID="ID_177830663" CREATED="1478973458641" MODIFIED="1478973458641"/>
+<node TEXT="anim" ID="ID_1338208761" CREATED="1478973458641" MODIFIED="1478973458641"/>
+<node TEXT="armature" ID="ID_511094116" CREATED="1478973458642" MODIFIED="1478973458642"/>
+<node TEXT="boid" ID="ID_1144963494" CREATED="1478973458644" MODIFIED="1478973458644"/>
+<node TEXT="brush" ID="ID_1801927115" CREATED="1478973458645" MODIFIED="1478973458645"/>
+<node TEXT="buttons" ID="ID_1348928039" CREATED="1478973458646" MODIFIED="1478973458646"/>
+<node TEXT="cachefile" ID="ID_283977429" CREATED="1478973458647" MODIFIED="1478973458647"/>
+<node TEXT="camera" ID="ID_1722227429" CREATED="1478973458648" MODIFIED="1478973458648"/>
+<node TEXT="clip" ID="ID_938904354" CREATED="1478973458649" MODIFIED="1478973458649"/>
+<node TEXT="cloth" ID="ID_1747092585" CREATED="1478973458650" MODIFIED="1478973458650"/>
+<node TEXT="console" ID="ID_1817182664" CREATED="1478973458651" MODIFIED="1478973458651"/>
+<node TEXT="constraint" ID="ID_1681672821" CREATED="1478973458652" MODIFIED="1478973458652"/>
+<node TEXT="curve" ID="ID_979946726" CREATED="1478973458652" MODIFIED="1478973458652"/>
+<node TEXT="cycles" ID="ID_1071238015" CREATED="1478973458652" MODIFIED="1478973458652"/>
+<node TEXT="dpaint" ID="ID_1674897161" CREATED="1478973458653" MODIFIED="1478973458653"/>
+<node TEXT="ed" ID="ID_1841042275" CREATED="1478973458654" MODIFIED="1478973458654"/>
+<node TEXT="export_anim" ID="ID_1090121370" CREATED="1478973458654" MODIFIED="1478973458654"/>
+<node TEXT="export_mesh" ID="ID_1296306755" CREATED="1478973458655" MODIFIED="1478973458655"/>
+<node TEXT="export_scene" ID="ID_254356404" CREATED="1478973458656" MODIFIED="1478973458656"/>
+<node TEXT="file" ID="ID_1377622464" CREATED="1478973476755" MODIFIED="1478973476755"/>
+<node TEXT="fluid" ID="ID_980807222" CREATED="1478973476755" MODIFIED="1478973476755"/>
+<node TEXT="font" ID="ID_1081211994" CREATED="1478973476756" MODIFIED="1478973476756"/>
+<node TEXT="gpencil" ID="ID_600410886" CREATED="1478973476757" MODIFIED="1478973476757"/>
+<node TEXT="graph" ID="ID_1912803688" CREATED="1478973476758" MODIFIED="1478973476758"/>
+<node TEXT="group" ID="ID_462810729" CREATED="1478973476758" MODIFIED="1478973476758"/>
+<node TEXT="image" ID="ID_1285548621" CREATED="1478973476759" MODIFIED="1478973476759"/>
+<node TEXT="import_anim" ID="ID_207870570" CREATED="1478973476759" MODIFIED="1478973476759"/>
+<node TEXT="import_curve" ID="ID_1474989139" CREATED="1478973476760" MODIFIED="1478973476760"/>
+<node TEXT="import_mesh" ID="ID_70835243" CREATED="1478973476761" MODIFIED="1478973476761"/>
+<node TEXT="import_scene" ID="ID_977338345" CREATED="1478973476761" MODIFIED="1478973476761"/>
+<node TEXT="info" ID="ID_814002428" CREATED="1478973476762" MODIFIED="1478973476762"/>
+<node TEXT="lamp" ID="ID_151998541" CREATED="1478973476762" MODIFIED="1478973476762"/>
+<node TEXT="lattice" ID="ID_1054925902" CREATED="1478973476763" MODIFIED="1478973476763"/>
+<node TEXT="logic" ID="ID_369922361" CREATED="1478973476764" MODIFIED="1478973476764"/>
+<node TEXT="marker" ID="ID_1728202326" CREATED="1478973476764" MODIFIED="1478973476764"/>
+<node TEXT="mask" ID="ID_308309237" CREATED="1478973476765" MODIFIED="1478973476765"/>
+<node TEXT="material" ID="ID_452608269" CREATED="1478973476766" MODIFIED="1478973476766"/>
+<node TEXT="mball" ID="ID_354726306" CREATED="1478973476770" MODIFIED="1478973476770"/>
+<node TEXT="mesh" ID="ID_1459139689" CREATED="1478973476771" MODIFIED="1478973476771"/>
+<node TEXT="nla" ID="ID_1880713226" CREATED="1478973476772" MODIFIED="1478973476772"/>
+<node TEXT="node" ID="ID_1948317834" CREATED="1478973476772" MODIFIED="1478973476772"/>
+<node TEXT="object" FOLDED="true" ID="ID_562430722" CREATED="1478973476772" MODIFIED="1478973476772">
+<node TEXT="add(" ID="ID_304952564" CREATED="1478973583311" MODIFIED="1478973583311"/>
+<node TEXT="add_named(" ID="ID_1215065046" CREATED="1478973583311" MODIFIED="1478973583311"/>
+<node TEXT="align(" ID="ID_1991112717" CREATED="1478973583313" MODIFIED="1478973583313"/>
+<node TEXT="anim_transforms_to_deltas(" ID="ID_1641178432" CREATED="1478973583314" MODIFIED="1478973583314"/>
+<node TEXT="armature_add(" ID="ID_1233240860" CREATED="1478973583315" MODIFIED="1478973583315"/>
+<node TEXT="bake(" ID="ID_86837578" CREATED="1478973583316" MODIFIED="1478973583316"/>
+<node TEXT="bake_image(" ID="ID_931670202" CREATED="1478973583316" MODIFIED="1478973583316"/>
+<node TEXT="camera_add(" ID="ID_171675889" CREATED="1478973583317" MODIFIED="1478973583317"/>
+<node TEXT="constraint_add(" ID="ID_318251863" CREATED="1478973583319" MODIFIED="1478973583319"/>
+<node TEXT="constraint_add_with_targets(" ID="ID_1283256377" CREATED="1478973583319" MODIFIED="1478973583319"/>
+<node TEXT="constraints_clear(" ID="ID_1513213624" CREATED="1478973583320" MODIFIED="1478973583320"/>
+<node TEXT="constraints_copy(" ID="ID_1288042743" CREATED="1478973583321" MODIFIED="1478973583321"/>
+<node TEXT="convert(" ID="ID_1357005909" CREATED="1478973583321" MODIFIED="1478973583321"/>
+<node TEXT="correctivesmooth_bind(" ID="ID_375143779" CREATED="1478973583322" MODIFIED="1478973583322"/>
+<node TEXT="data_transfer(" ID="ID_745859476" CREATED="1478973583323" MODIFIED="1478973583323"/>
+<node TEXT="datalayout_transfer(" ID="ID_905652980" CREATED="1478973583324" MODIFIED="1478973583324"/>
+<node TEXT="delete(" ID="ID_136326307" CREATED="1478973583325" MODIFIED="1478973583325"/>
+<node TEXT="drop_named_image(" ID="ID_15483004" CREATED="1478973583326" MODIFIED="1478973583326"/>
+<node TEXT="drop_named_material(" ID="ID_1228448980" CREATED="1478973583327" MODIFIED="1478973583327"/>
+<node TEXT="dupli_offset_from_cursor(" ID="ID_391144780" CREATED="1478973583328" MODIFIED="1478973583328"/>
+<node TEXT="duplicate(" FOLDED="true" ID="ID_770893460" CREATED="1478973583330" MODIFIED="1478973583330">
+<node TEXT="&gt;&gt;&gt; bpy.ops.object.duplicate()" FOLDED="true" ID="ID_363190599" CREATED="1478973849845" MODIFIED="1478973849845">
+<node TEXT="{&apos;FINISHED&apos;}" ID="ID_188896739" CREATED="1478973849845" MODIFIED="1478973849845"/>
+</node>
+</node>
+<node TEXT="duplicate_move(" ID="ID_1980375512" CREATED="1478973583330" MODIFIED="1478973583330"/>
+<node TEXT="duplicate_move_linked(" ID="ID_1677800554" CREATED="1478973602925" MODIFIED="1478973602925"/>
+<node TEXT="duplicates_make_real(" ID="ID_1394815339" CREATED="1478973602925" MODIFIED="1478973602925"/>
+<node TEXT="editmode_toggle(" ID="ID_301002487" CREATED="1478973602926" MODIFIED="1478973602926"/>
+<node TEXT="effector_add(" ID="ID_1484013722" CREATED="1478973602927" MODIFIED="1478973602927"/>
+<node TEXT="empty_add(" ID="ID_588488613" CREATED="1478973602928" MODIFIED="1478973602928"/>
+<node TEXT="explode_refresh(" ID="ID_283161947" CREATED="1478973602929" MODIFIED="1478973602929"/>
+<node TEXT="forcefield_toggle(" ID="ID_883235906" CREATED="1478973602930" MODIFIED="1478973602930"/>
+<node TEXT="game_physics_copy(" ID="ID_802839448" CREATED="1478973602931" MODIFIED="1478973602931"/>
+<node TEXT="game_property_clear(" ID="ID_325727596" CREATED="1478973602932" MODIFIED="1478973602932"/>
+<node TEXT="game_property_copy(" ID="ID_771705973" CREATED="1478973602933" MODIFIED="1478973602933"/>
+<node TEXT="game_property_move(" ID="ID_1092390491" CREATED="1478973602934" MODIFIED="1478973602934"/>
+<node TEXT="game_property_new(" ID="ID_703866459" CREATED="1478973602935" MODIFIED="1478973602935"/>
+<node TEXT="game_property_remove(" ID="ID_50973208" CREATED="1478973602936" MODIFIED="1478973602936"/>
+<node TEXT="group_add(" ID="ID_1523824948" CREATED="1478973602937" MODIFIED="1478973602937"/>
+<node TEXT="group_instance_add(" ID="ID_1745326338" CREATED="1478973602938" MODIFIED="1478973602938"/>
+<node TEXT="group_link(" ID="ID_413461570" CREATED="1478973602939" MODIFIED="1478973602939"/>
+<node TEXT="group_remove(" ID="ID_437696747" CREATED="1478973602941" MODIFIED="1478973602941"/>
+<node TEXT="group_unlink(" ID="ID_1347314213" CREATED="1478973602942" MODIFIED="1478973602942"/>
+<node TEXT="grouped_select(" ID="ID_1361443549" CREATED="1478973602943" MODIFIED="1478973602943"/>
+<node TEXT="hide_render_clear(" ID="ID_1673200581" CREATED="1478973602944" MODIFIED="1478973602944"/>
+<node TEXT="hide_render_clear_all(" ID="ID_1203651376" CREATED="1478973602945" MODIFIED="1478973602945"/>
+<node TEXT="hide_render_set(" ID="ID_314715130" CREATED="1478973602946" MODIFIED="1478973602946"/>
+<node TEXT="hide_view_clear(" ID="ID_1450586913" CREATED="1478973618917" MODIFIED="1478973618917"/>
+<node TEXT="hide_view_set(" ID="ID_532935639" CREATED="1478973618917" MODIFIED="1478973618917"/>
+<node TEXT="hook_add_newob(" ID="ID_108562159" CREATED="1478973618919" MODIFIED="1478973618919"/>
+<node TEXT="hook_add_selob(" ID="ID_85828286" CREATED="1478973618920" MODIFIED="1478973618920"/>
+<node TEXT="hook_assign(" ID="ID_1688643547" CREATED="1478973618921" MODIFIED="1478973618921"/>
+<node TEXT="hook_recenter(" ID="ID_1188711781" CREATED="1478973618922" MODIFIED="1478973618922"/>
+<node TEXT="hook_remove(" ID="ID_1022420813" CREATED="1478973618923" MODIFIED="1478973618923"/>
+<node TEXT="hook_reset(" ID="ID_949503012" CREATED="1478973618925" MODIFIED="1478973618925"/>
+<node TEXT="hook_select(" ID="ID_943464153" CREATED="1478973618926" MODIFIED="1478973618926"/>
+<node TEXT="isolate_type_render(" ID="ID_845175548" CREATED="1478973618927" MODIFIED="1478973618927"/>
+<node TEXT="join(" ID="ID_832987262" CREATED="1478973618928" MODIFIED="1478973618928"/>
+<node TEXT="join_shapes(" ID="ID_1776344312" CREATED="1478973618929" MODIFIED="1478973618929"/>
+<node TEXT="join_uvs(" ID="ID_1398532919" CREATED="1478973618930" MODIFIED="1478973618930"/>
+<node TEXT="lamp_add(" ID="ID_1969940615" CREATED="1478973618931" MODIFIED="1478973618931"/>
+<node TEXT="laplaciandeform_bind(" ID="ID_1555226985" CREATED="1478973618932" MODIFIED="1478973618932"/>
+<node TEXT="location_clear(" ID="ID_326568886" CREATED="1478973618933" MODIFIED="1478973618933"/>
+<node TEXT="lod_add(" ID="ID_869249417" CREATED="1478973618934" MODIFIED="1478973618934"/>
+<node TEXT="lod_by_name(" ID="ID_22119733" CREATED="1478973618935" MODIFIED="1478973618935"/>
+<node TEXT="lod_clear_all(" ID="ID_1287677143" CREATED="1478973618937" MODIFIED="1478973618937"/>
+<node TEXT="lod_generate(" ID="ID_740891193" CREATED="1478973618938" MODIFIED="1478973618938"/>
+<node TEXT="lod_remove(" ID="ID_206111906" CREATED="1478973618939" MODIFIED="1478973618939"/>
+<node TEXT="logic_bricks_copy(" ID="ID_463742038" CREATED="1478973618941" MODIFIED="1478973618941"/>
+<node TEXT="make_dupli_face(" ID="ID_701530252" CREATED="1478973618942" MODIFIED="1478973618942"/>
+<node TEXT="make_links_data(" ID="ID_29738239" CREATED="1478973618943" MODIFIED="1478973618943"/>
+<node TEXT="make_links_scene(" ID="ID_1978207019" CREATED="1478973618945" MODIFIED="1478973618945"/>
+<node TEXT="make_local(" ID="ID_1476648624" CREATED="1478973642712" MODIFIED="1478973642712"/>
+<node TEXT="make_single_user(" ID="ID_1048216285" CREATED="1478973642712" MODIFIED="1478973642712"/>
+<node TEXT="material_slot_add(" ID="ID_718982355" CREATED="1478973642713" MODIFIED="1478973642713"/>
+<node TEXT="material_slot_assign(" ID="ID_1930488268" CREATED="1478973642715" MODIFIED="1478973642715"/>
+<node TEXT="material_slot_copy(" ID="ID_829344771" CREATED="1478973642716" MODIFIED="1478973642716"/>
+<node TEXT="material_slot_deselect(" ID="ID_508525712" CREATED="1478973642716" MODIFIED="1478973642716"/>
+<node TEXT="material_slot_move(" ID="ID_1899565744" CREATED="1478973642717" MODIFIED="1478973642717"/>
+<node TEXT="material_slot_remove(" ID="ID_1948482791" CREATED="1478973642718" MODIFIED="1478973642718"/>
+<node TEXT="material_slot_select(" ID="ID_856914301" CREATED="1478973642720" MODIFIED="1478973642720"/>
+<node TEXT="meshdeform_bind(" ID="ID_1038256751" CREATED="1478973642721" MODIFIED="1478973642721"/>
+<node TEXT="metaball_add(" ID="ID_1855589583" CREATED="1478973642722" MODIFIED="1478973642722"/>
+<node TEXT="mode_set(" ID="ID_432160402" CREATED="1478973642723" MODIFIED="1478973642723"/>
+<node TEXT="modifier_add(" ID="ID_1616209590" CREATED="1478973642724" MODIFIED="1478973642724"/>
+<node TEXT="modifier_apply(" ID="ID_71067134" CREATED="1478973642725" MODIFIED="1478973642725"/>
+<node TEXT="modifier_convert(" ID="ID_1208139516" CREATED="1478973642726" MODIFIED="1478973642726"/>
+<node TEXT="modifier_copy(" ID="ID_26795690" CREATED="1478973642727" MODIFIED="1478973642727"/>
+<node TEXT="modifier_move_down(" ID="ID_1963942892" CREATED="1478973642728" MODIFIED="1478973642728"/>
+<node TEXT="modifier_move_up(" ID="ID_1234795809" CREATED="1478973642729" MODIFIED="1478973642729"/>
+<node TEXT="modifier_remove(" ID="ID_580425376" CREATED="1478973642730" MODIFIED="1478973642730"/>
+<node TEXT="move_to_layer(" ID="ID_1682515537" CREATED="1478973642732" MODIFIED="1478973642732"/>
+<node TEXT="multires_base_apply(" ID="ID_53454758" CREATED="1478973642733" MODIFIED="1478973642733"/>
+<node TEXT="multires_external_pack(" ID="ID_683740268" CREATED="1478973642734" MODIFIED="1478973642734"/>
+<node TEXT="multires_external_save(" ID="ID_1822031424" CREATED="1478973658199" MODIFIED="1478973658199"/>
+<node TEXT="multires_higher_levels_delete(" ID="ID_1623834118" CREATED="1478973658199" MODIFIED="1478973658199"/>
+<node TEXT="multires_reshape(" ID="ID_845966624" CREATED="1478973658201" MODIFIED="1478973658201"/>
+<node TEXT="multires_subdivide(" ID="ID_1610381517" CREATED="1478973658202" MODIFIED="1478973658202"/>
+<node TEXT="ocean_bake(" ID="ID_1805449616" CREATED="1478973658203" MODIFIED="1478973658203"/>
+<node TEXT="origin_clear(" ID="ID_1795354922" CREATED="1478973658204" MODIFIED="1478973658204"/>
+<node TEXT="origin_set(" ID="ID_189347574" CREATED="1478973658205" MODIFIED="1478973658205"/>
+<node TEXT="parent_clear(" ID="ID_439830298" CREATED="1478973658206" MODIFIED="1478973658206"/>
+<node TEXT="parent_no_inverse_set(" ID="ID_265431863" CREATED="1478973658207" MODIFIED="1478973658207"/>
+<node TEXT="parent_set(" ID="ID_1423034207" CREATED="1478973658208" MODIFIED="1478973658208"/>
+<node TEXT="particle_system_add(" ID="ID_1393758765" CREATED="1478973658210" MODIFIED="1478973658210"/>
+<node TEXT="particle_system_remove(" ID="ID_496589361" CREATED="1478973658212" MODIFIED="1478973658212"/>
+<node TEXT="paths_calculate(" ID="ID_1225428294" CREATED="1478973658213" MODIFIED="1478973658213"/>
+<node TEXT="paths_clear(" ID="ID_638730043" CREATED="1478973658214" MODIFIED="1478973658214"/>
+<node TEXT="paths_update(" ID="ID_1791063861" CREATED="1478973658215" MODIFIED="1478973658215"/>
+<node TEXT="posemode_toggle(" ID="ID_1773054645" CREATED="1478973658216" MODIFIED="1478973658216"/>
+<node TEXT="proxy_make(" ID="ID_1716687505" CREATED="1478973658218" MODIFIED="1478973658218"/>
+<node TEXT="quick_explode(" ID="ID_1598061257" CREATED="1478973658220" MODIFIED="1478973658220"/>
+<node TEXT="quick_fluid(" ID="ID_250183412" CREATED="1478973658221" MODIFIED="1478973658221"/>
+<node TEXT="quick_fur(" ID="ID_1212179559" CREATED="1478973658222" MODIFIED="1478973658222"/>
+<node TEXT="quick_smoke(" ID="ID_1885222309" CREATED="1478973658222" MODIFIED="1478973658222"/>
+<node TEXT="randomize_transform(" ID="ID_1224584159" CREATED="1478973673969" MODIFIED="1478973673969"/>
+<node TEXT="rotation_clear(" ID="ID_390081970" CREATED="1478973673969" MODIFIED="1478973673969"/>
+<node TEXT="scale_clear(" ID="ID_1658128324" CREATED="1478973673971" MODIFIED="1478973673971"/>
+<node TEXT="select_all(" ID="ID_1822873281" CREATED="1478973673973" MODIFIED="1478973673973"/>
+<node TEXT="select_by_layer(" ID="ID_1269707660" CREATED="1478973673974" MODIFIED="1478973673974"/>
+<node TEXT="select_by_type(" ID="ID_776356520" CREATED="1478973673975" MODIFIED="1478973673975"/>
+<node TEXT="select_camera(" ID="ID_1384498122" CREATED="1478973673975" MODIFIED="1478973673975"/>
+<node TEXT="select_grouped(" ID="ID_1153351540" CREATED="1478973673976" MODIFIED="1478973673976"/>
+<node TEXT="select_hierarchy(" ID="ID_1413285550" CREATED="1478973673977" MODIFIED="1478973673977"/>
+<node TEXT="select_less(" ID="ID_393033248" CREATED="1478973673978" MODIFIED="1478973673978"/>
+<node TEXT="select_linked(" ID="ID_1959815643" CREATED="1478973673979" MODIFIED="1478973673979"/>
+<node TEXT="select_mirror(" ID="ID_1428882900" CREATED="1478973673980" MODIFIED="1478973673980"/>
+<node TEXT="select_more(" ID="ID_780110240" CREATED="1478973673981" MODIFIED="1478973673981"/>
+<node TEXT="select_pattern(" ID="ID_1192603720" CREATED="1478973673982" MODIFIED="1478973673982"/>
+<node TEXT="select_random(" ID="ID_1877048763" CREATED="1478973673984" MODIFIED="1478973673984"/>
+<node TEXT="select_same_group(" ID="ID_1227237720" CREATED="1478973673985" MODIFIED="1478973673985"/>
+<node TEXT="shade_flat(" ID="ID_351679760" CREATED="1478973673986" MODIFIED="1478973673986"/>
+<node TEXT="shade_smooth(" ID="ID_960651929" CREATED="1478973673987" MODIFIED="1478973673987"/>
+<node TEXT="shape_key_add(" ID="ID_633865140" CREATED="1478973673988" MODIFIED="1478973673988"/>
+<node TEXT="shape_key_clear(" ID="ID_909730643" CREATED="1478973673988" MODIFIED="1478973673988"/>
+<node TEXT="shape_key_mirror(" ID="ID_735671790" CREATED="1478973673989" MODIFIED="1478973673989"/>
+<node TEXT="shape_key_move(" ID="ID_912182751" CREATED="1478973673991" MODIFIED="1478973673991"/>
+<node TEXT="shape_key_remove(" ID="ID_1346162393" CREATED="1478973698213" MODIFIED="1478973698213"/>
+<node TEXT="shape_key_retime(" ID="ID_1631601934" CREATED="1478973698213" MODIFIED="1478973698213"/>
+<node TEXT="shape_key_transfer(" ID="ID_1873238656" CREATED="1478973698214" MODIFIED="1478973698214"/>
+<node TEXT="skin_armature_create(" ID="ID_1470635748" CREATED="1478973698215" MODIFIED="1478973698215"/>
+<node TEXT="skin_loose_mark_clear(" ID="ID_1883320679" CREATED="1478973698216" MODIFIED="1478973698216"/>
+<node TEXT="skin_radii_equalize(" ID="ID_1841945984" CREATED="1478973698217" MODIFIED="1478973698217"/>
+<node TEXT="skin_root_mark(" ID="ID_1021165202" CREATED="1478973698218" MODIFIED="1478973698218"/>
+<node TEXT="slow_parent_clear(" ID="ID_792652733" CREATED="1478973698219" MODIFIED="1478973698219"/>
+<node TEXT="slow_parent_set(" ID="ID_42221740" CREATED="1478973698221" MODIFIED="1478973698221"/>
+<node TEXT="speaker_add(" ID="ID_1079363787" CREATED="1478973698222" MODIFIED="1478973698222"/>
+<node TEXT="subdivision_set(" ID="ID_1967864752" CREATED="1478973698223" MODIFIED="1478973698223"/>
+<node TEXT="text_add(" ID="ID_599949999" CREATED="1478973698224" MODIFIED="1478973698224"/>
+<node TEXT="track_clear(" ID="ID_890432151" CREATED="1478973698225" MODIFIED="1478973698225"/>
+<node TEXT="track_set(" ID="ID_149990171" CREATED="1478973698226" MODIFIED="1478973698226"/>
+<node TEXT="transform_apply(" ID="ID_143188928" CREATED="1478973698227" MODIFIED="1478973698227"/>
+<node TEXT="transforms_to_deltas(" ID="ID_947727081" CREATED="1478973698228" MODIFIED="1478973698228"/>
+<node TEXT="unlink_data(" ID="ID_1628616785" CREATED="1478973698230" MODIFIED="1478973698230"/>
+<node TEXT="vertex_group_add(" ID="ID_464052695" CREATED="1478973698231" MODIFIED="1478973698231"/>
+<node TEXT="vertex_group_assign(" ID="ID_1484115244" CREATED="1478973698232" MODIFIED="1478973698232"/>
+<node TEXT="vertex_group_assign_new(" ID="ID_1274072592" CREATED="1478973698233" MODIFIED="1478973698233"/>
+<node TEXT="vertex_group_clean(" ID="ID_181731472" CREATED="1478973698234" MODIFIED="1478973698234"/>
+<node TEXT="vertex_group_copy(" ID="ID_1374061478" CREATED="1478973698235" MODIFIED="1478973698235"/>
+<node TEXT="vertex_group_copy_to_linked(" ID="ID_1289547075" CREATED="1478973698236" MODIFIED="1478973698236"/>
+<node TEXT="vertex_group_copy_to_selected(" ID="ID_1355204675" CREATED="1478973710964" MODIFIED="1478973710964"/>
+<node TEXT="vertex_group_deselect(" ID="ID_1877847454" CREATED="1478973710964" MODIFIED="1478973710964"/>
+<node TEXT="vertex_group_fix(" ID="ID_1671579291" CREATED="1478973710965" MODIFIED="1478973710965"/>
+<node TEXT="vertex_group_invert(" ID="ID_1026246350" CREATED="1478973710966" MODIFIED="1478973710966"/>
+<node TEXT="vertex_group_levels(" ID="ID_225348828" CREATED="1478973710967" MODIFIED="1478973710967"/>
+<node TEXT="vertex_group_limit_total(" ID="ID_1438286759" CREATED="1478973710968" MODIFIED="1478973710968"/>
+<node TEXT="vertex_group_lock(" ID="ID_192629613" CREATED="1478973710969" MODIFIED="1478973710969"/>
+<node TEXT="vertex_group_mirror(" ID="ID_1632978658" CREATED="1478973710970" MODIFIED="1478973710970"/>
+<node TEXT="vertex_group_move(" ID="ID_635761137" CREATED="1478973710971" MODIFIED="1478973710971"/>
+<node TEXT="vertex_group_normalize(" ID="ID_1022863135" CREATED="1478973710972" MODIFIED="1478973710972"/>
+<node TEXT="vertex_group_normalize_all(" ID="ID_918134685" CREATED="1478973710974" MODIFIED="1478973710974"/>
+<node TEXT="vertex_group_quantize(" ID="ID_1523667598" CREATED="1478973710975" MODIFIED="1478973710975"/>
+<node TEXT="vertex_group_remove(" ID="ID_824969887" CREATED="1478973710976" MODIFIED="1478973710976"/>
+<node TEXT="vertex_group_remove_from(" ID="ID_1538103702" CREATED="1478973710977" MODIFIED="1478973710977"/>
+<node TEXT="vertex_group_select(" ID="ID_674647648" CREATED="1478973710978" MODIFIED="1478973710978"/>
+<node TEXT="vertex_group_set_active(" ID="ID_1162363334" CREATED="1478973710979" MODIFIED="1478973710979"/>
+<node TEXT="vertex_group_smooth(" ID="ID_1674912681" CREATED="1478973710980" MODIFIED="1478973710980"/>
+<node TEXT="vertex_group_sort(" ID="ID_1791185787" CREATED="1478973710981" MODIFIED="1478973710981"/>
+<node TEXT="vertex_parent_set(" ID="ID_207173121" CREATED="1478973710982" MODIFIED="1478973710982"/>
+<node TEXT="vertex_weight_copy(" ID="ID_1059003358" CREATED="1478973710983" MODIFIED="1478973710983"/>
+<node TEXT="vertex_weight_delete(" ID="ID_1892993248" CREATED="1478973710985" MODIFIED="1478973710985"/>
+<node TEXT="vertex_weight_normalize_active_vertex(" ID="ID_856208568" CREATED="1478973710986" MODIFIED="1478973710986"/>
+<node TEXT="vertex_weight_paste(" ID="ID_1247174164" CREATED="1478973710987" MODIFIED="1478973710987"/>
+<node TEXT="vertex_weight_set_active(" ID="ID_1220963527" CREATED="1478973724519" MODIFIED="1478973724519"/>
+<node TEXT="visual_transform_apply(" ID="ID_1430818645" CREATED="1478973724519" MODIFIED="1478973724519"/>
+</node>
+<node TEXT="outliner" ID="ID_1424753889" CREATED="1478973492260" MODIFIED="1478973492260"/>
+<node TEXT="paint" ID="ID_1861070922" CREATED="1478973492260" MODIFIED="1478973492260"/>
+<node TEXT="paintcurve" ID="ID_1155209424" CREATED="1478973492262" MODIFIED="1478973492262"/>
+<node TEXT="palette" ID="ID_1957976974" CREATED="1478973492263" MODIFIED="1478973492263"/>
+<node TEXT="particle" ID="ID_1783828859" CREATED="1478973492264" MODIFIED="1478973492264"/>
+<node TEXT="pose" ID="ID_1665808916" CREATED="1478973492266" MODIFIED="1478973492266"/>
+<node TEXT="poselib" ID="ID_324335018" CREATED="1478973492267" MODIFIED="1478973492267"/>
+<node TEXT="ptcache" ID="ID_1840666314" CREATED="1478973492268" MODIFIED="1478973492268"/>
+<node TEXT="render" ID="ID_105294265" CREATED="1478973492269" MODIFIED="1478973492269"/>
+<node TEXT="rigidbody" ID="ID_447056939" CREATED="1478973492270" MODIFIED="1478973492270"/>
+<node TEXT="safe_areas" ID="ID_902356481" CREATED="1478973492271" MODIFIED="1478973492271"/>
+<node TEXT="scene" ID="ID_1579895412" CREATED="1478973492271" MODIFIED="1478973492271"/>
+<node TEXT="screen" ID="ID_1686282734" CREATED="1478973492272" MODIFIED="1478973492272"/>
+<node TEXT="script" ID="ID_860478857" CREATED="1478973492273" MODIFIED="1478973492273"/>
+<node TEXT="sculpt" ID="ID_682455764" CREATED="1478973492274" MODIFIED="1478973492274"/>
+<node TEXT="sequencer" ID="ID_1774710916" CREATED="1478973492275" MODIFIED="1478973492275"/>
+<node TEXT="sketch" ID="ID_1310309216" CREATED="1478973492276" MODIFIED="1478973492276"/>
+<node TEXT="sound" ID="ID_1846347055" CREATED="1478973492278" MODIFIED="1478973492278"/>
+<node TEXT="surface" ID="ID_523204245" CREATED="1478973492279" MODIFIED="1478973492279"/>
+<node TEXT="text" ID="ID_248465744" CREATED="1478973492280" MODIFIED="1478973492280"/>
+<node TEXT="texture" ID="ID_1668080741" CREATED="1478973492281" MODIFIED="1478973492281"/>
+<node TEXT="time" ID="ID_1010507856" CREATED="1478973492282" MODIFIED="1478973492282"/>
+<node TEXT="transform" ID="ID_830127655" CREATED="1478973492283" MODIFIED="1478973492283"/>
+<node TEXT="ui" ID="ID_1300301146" CREATED="1478973492284" MODIFIED="1478973492284"/>
+<node TEXT="uv" ID="ID_977282609" CREATED="1478973492285" MODIFIED="1478973492285"/>
+<node TEXT="view2d" ID="ID_901939384" CREATED="1478973504577" MODIFIED="1478973504577"/>
+<node TEXT="view3d" ID="ID_1532620809" CREATED="1478973504577" MODIFIED="1478973504577"/>
+<node TEXT="wm" ID="ID_1194226387" CREATED="1478973504578" MODIFIED="1478973504578"/>
+<node TEXT="world" ID="ID_527916496" CREATED="1478973504578" MODIFIED="1478973504578"/>
+</node>
+</node>
+</node>
+<node TEXT="Operators don&#x2019;t have&#xa;return values" FOLDED="true" ID="ID_424699832" CREATED="1478974041955" MODIFIED="1478974048956">
+<node TEXT="instead they return a set()&#xa;which is made up of" FOLDED="true" ID="ID_1335146357" CREATED="1478974062150" MODIFIED="1478974083757">
+<node ID="ID_278291524" CREATED="1478974075534" MODIFIED="1478974083757"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <code class="docutils literal"><span class="pre">{'RUNNING_MODAL',</span>&#160;<span class="pre">'CANCELLED',</span>&#160;<span class="pre">'FINISHED',</span>&#160;<span class="pre">'PASS_THROUGH'}</span></code>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Examples" FOLDED="true" ID="ID_81319124" CREATED="1478980888674" MODIFIED="1478980890946">
+<node TEXT="&gt;&gt;&gt; bpy.data.objects[&apos;Cube&apos;].select=False&#xa;&gt;&gt;&gt; bpy.context.scene.objects.active=bpy.data.objects[&apos;Cube.001&apos;]&#xa;&gt;&gt;&gt; bpy.context.scene.objects.active.select=True&#xa;&gt;&gt;&gt; bpy.ops.object.shade_flat()&#xa;{&apos;FINISHED&apos;}" ID="ID_1899129239" CREATED="1478980968081" MODIFIED="1478980971676"/>
+</node>
+</node>
+<node TEXT="Blender&#xa;Property" FOLDED="true" ID="ID_975201816" CREATED="1478974169250" MODIFIED="1478974179570">
+<node TEXT="Types" FOLDED="true" ID="ID_590444160" CREATED="1478974260732" MODIFIED="1478974266714">
+<node TEXT="integers" ID="ID_1144558200" CREATED="1478974285860" MODIFIED="1478974289870"/>
+<node TEXT="enum" ID="ID_1077743335" CREATED="1478974295570" MODIFIED="1478974297689"/>
+<node TEXT="boolean" ID="ID_497812112" CREATED="1478974298627" MODIFIED="1478974300727"/>
+</node>
+<node TEXT="Examples" FOLDED="true" ID="ID_910722051" CREATED="1478974379514" MODIFIED="1478974381691">
+<node TEXT="&gt;&gt;&gt; bpy.context.active_object.name" FOLDED="true" ID="ID_1038345599" CREATED="1478974384130" MODIFIED="1478974384130">
+<node TEXT="&apos;Cube&apos;" ID="ID_1253267517" CREATED="1478974384130" MODIFIED="1478974384130"/>
+</node>
+<node TEXT="&gt;&gt;&gt; bpy.context.active_object.name = &quot;Something&quot;" ID="ID_336417721" CREATED="1478974438655" MODIFIED="1478974438655"/>
+</node>
+<node TEXT="commonly used&#xa;in operators" FOLDED="true" ID="ID_1892548438" CREATED="1478974547066" MODIFIED="1478974584407">
+<node TEXT="Input or setting&#xa;property of the&#xa;operator" ID="ID_988762827" CREATED="1478974670123" MODIFIED="1478974693211"/>
+</node>
+</node>
+<node TEXT="Developer tooltips&#xa;and the info window" FOLDED="true" ID="ID_95721547" CREATED="1478980821255" MODIFIED="1478980842785">
+<node TEXT="Python API tips&#xa;on tooltips" ID="ID_1447198085" CREATED="1478981524549" MODIFIED="1478981542294"/>
+<node TEXT="Adding Modifiers" FOLDED="true" ID="ID_722545366" CREATED="1478981382275" MODIFIED="1478981521201">
+<node TEXT="Example" FOLDED="true" ID="ID_1284536130" CREATED="1478981389156" MODIFIED="1478981521199">
+<node TEXT="&gt;&gt;&gt; bpy.ops.object.modifier_add(type=&quot;SUBSURF&quot;)&#xa;{&apos;FINISHED&apos;}&#xa;&gt;&gt;&gt; bpy.data.objects[&apos;Cube.001&apos;].modifiers[&apos;Subsurf&apos;].subdivision_type=&quot;CATMULL_CLARK&quot;&#xa;&gt;&gt;&gt; bpy.data.objects[&apos;Cube.001&apos;].modifiers[&apos;Subsurf&apos;].subdivision_type=&quot;SIMPLE&quot;" ID="ID_512915666" CREATED="1478981480823" MODIFIED="1478981483496"/>
+<node TEXT="&gt;&gt;&gt; bpy.ops.object.modifier_add(type=&quot;SUBSURF&quot;) {&apos;FINISHED&apos;}&#xa;bpy.context.active_object.modifiers[&quot;Subsurf&quot;].levels=1" ID="ID_952397597" CREATED="1478981985128" MODIFIED="1478981987064"/>
+</node>
+</node>
+<node TEXT="&quot;Copy Data Path&quot;" FOLDED="true" ID="ID_1124588466" CREATED="1478981764795" MODIFIED="1478981782534">
+<node TEXT="Relative path from a&#xa;common starting point" ID="ID_1243636666" CREATED="1478981800777" MODIFIED="1478981816666"/>
+</node>
+</node>
+</node>
 <node TEXT="Blender&#xa;Basics" FOLDED="true" ID="ID_891280193" CREATED="1472797652577" MODIFIED="1476464037503">
 <font BOLD="true"/>
 <node TEXT="Verices Edges&#xa;and Faces" FOLDED="true" ID="ID_880682142" CREATED="1472894174114" MODIFIED="1472932108983">
@@ -1391,7 +2400,7 @@
 <node TEXT="Zoom to&#xa;selected" FOLDED="true" ID="ID_128305492" CREATED="1475444180666" MODIFIED="1475444202613">
 <node TEXT="&quot;Numpad .&quot;" ID="ID_748082159" CREATED="1475444186197" MODIFIED="1475444195939"/>
 </node>
-<node TEXT="View&#xa;Dolly" ID="ID_562466968" CREATED="1475444233580" MODIFIED="1475444725760">
+<node TEXT="View&#xa;Dolly" FOLDED="true" ID="ID_562466968" CREATED="1475444233580" MODIFIED="1475444725760">
 <node TEXT="&quot;Ctrl + Shift + MMB&quot;" ID="ID_1905582588" CREATED="1475444727084" MODIFIED="1475444816355"/>
 </node>
 <node TEXT="Walk/Fly&#xa;Mode" FOLDED="true" ID="ID_1688455932" CREATED="1475444787648" MODIFIED="1475444799716">
@@ -1636,7 +2645,7 @@
 <node TEXT="unbiased" FOLDED="true" ID="ID_1258433756" CREATED="1477645486303" MODIFIED="1477645489886">
 <node TEXT="MLT/bidir Path Tracing" ID="ID_16902856" CREATED="1477645491029" MODIFIED="1477645517862"/>
 </node>
-<node TEXT="biased" ID="ID_1686416717" CREATED="1477645521667" MODIFIED="1477645525024">
+<node TEXT="biased" FOLDED="true" ID="ID_1686416717" CREATED="1477645521667" MODIFIED="1477645525024">
 <node TEXT="directlighting" ID="ID_1286835097" CREATED="1477645528173" MODIFIED="1477645534101"/>
 <node TEXT="photonmapping" ID="ID_1608190803" CREATED="1477645536280" MODIFIED="1477645541694"/>
 </node>
@@ -1697,7 +2706,7 @@
 <node TEXT="CUDA on Blender" FOLDED="true" ID="ID_1425680805" CREATED="1477987826465" MODIFIED="1477987835075">
 <node TEXT="User Preferences &gt; System" ID="ID_1211472604" CREATED="1477987835896" MODIFIED="1477987855493"/>
 <node TEXT="Cycles Render" ID="ID_1093790463" CREATED="1477988187951" MODIFIED="1477988193391"/>
-<node TEXT="Device" ID="ID_678153474" CREATED="1477988201863" MODIFIED="1477988204134">
+<node TEXT="Device" FOLDED="true" ID="ID_678153474" CREATED="1477988201863" MODIFIED="1477988204134">
 <node TEXT="GPU Compute" ID="ID_263193477" CREATED="1477988205032" MODIFIED="1477988209103"/>
 </node>
 <node TEXT="Dimension of Render" ID="ID_1068162223" CREATED="1477988216958" MODIFIED="1477988223431"/>
@@ -1767,6 +2776,9 @@
 </node>
 <node TEXT="Bevel" FOLDED="true" ID="ID_1984604833" CREATED="1478004254549" MODIFIED="1478004256426">
 <node TEXT="Ctrl +B" ID="ID_764545339" CREATED="1478004257287" MODIFIED="1478004260475"/>
+</node>
+<node TEXT="Redo&#xa;Last Menu" FOLDED="true" ID="ID_1202941396" CREATED="1478974634217" MODIFIED="1478974642757">
+<node TEXT="&quot;F6&quot;" ID="ID_1986431569" CREATED="1478974644023" MODIFIED="1478974648074"/>
 </node>
 </node>
 <node TEXT="Model&#xa;creation&#xa;process" FOLDED="true" ID="ID_452296087" CREATED="1474963433771" MODIFIED="1474963485394">
