@@ -82,7 +82,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Blender" FOLDED="true" POSITION="right" ID="ID_1048597531" CREATED="1474909129272" MODIFIED="1474909131969">
+<node TEXT="Blender" POSITION="right" ID="ID_1048597531" CREATED="1474909129272" MODIFIED="1474909131969">
 <edge COLOR="#00007c"/>
 <node TEXT="FAQs" FOLDED="true" ID="ID_824250249" CREATED="1472881891355" MODIFIED="1472881895277">
 <node TEXT="Group Objects" FOLDED="true" ID="ID_521504952" CREATED="1472881896380" MODIFIED="1472881906094">
@@ -1363,6 +1363,36 @@
 <node TEXT="&quot;Copy Data Path&quot;" FOLDED="true" ID="ID_1124588466" CREATED="1478981764795" MODIFIED="1478981782534">
 <node TEXT="Relative path from a&#xa;common starting point" ID="ID_1243636666" CREATED="1478981800777" MODIFIED="1478981816666"/>
 </node>
+<node TEXT="Creating macro like script inside&#xa;Blender using the combination&#xa;of tooltip window &amp; info Window" ID="ID_866083458" CREATED="1479031059908" MODIFIED="1479031941017"/>
+</node>
+<node TEXT="Dividing further into&#xa;Context and Data" FOLDED="true" ID="ID_516392424" CREATED="1479031975393" MODIFIED="1479032002365">
+<node TEXT="Convenience&#xa;variables" FOLDED="true" ID="ID_1964109619" CREATED="1479032418627" MODIFIED="1479032428781">
+<node TEXT="C" FOLDED="true" ID="ID_208919669" CREATED="1479032446377" MODIFIED="1479032449585">
+<node TEXT="&quot;=&quot; bpy.context" ID="ID_1550018170" CREATED="1479032451346" MODIFIED="1479032486901"/>
+</node>
+<node TEXT="D" FOLDED="true" ID="ID_507923061" CREATED="1479032491620" MODIFIED="1479032493122">
+<node TEXT="&quot;=&quot; bpy.data" ID="ID_1587151714" CREATED="1479032497170" MODIFIED="1479032503660"/>
+</node>
+</node>
+<node TEXT="Context" FOLDED="true" ID="ID_853269253" CREATED="1479032916139" MODIFIED="1479050276454">
+<node TEXT="Uses active objects" ID="ID_1771876276" CREATED="1479032940477" MODIFIED="1479032945203"/>
+<node TEXT="Context also takes account&#xa;of the active scene" FOLDED="true" ID="ID_1545334461" CREATED="1479032691982" MODIFIED="1479050276454">
+<node TEXT="&gt;&gt;&gt; C.scene&#xa;bpy.data.scenes[&apos;Scene&apos;]&#xa;&gt;&gt;&gt; list(D.scenes)&#xa;[bpy.data.scenes[&apos;Scene&apos;], bpy.data.scenes[&apos;Scene.001&apos;]]" ID="ID_654328757" CREATED="1479032848001" MODIFIED="1479032850473"/>
+</node>
+<node TEXT="Can also use&#xa;Selected Objects" FOLDED="true" ID="ID_1069846339" CREATED="1479033039870" MODIFIED="1479033058068">
+<node TEXT="&gt;&gt;&gt; C.selected_objects&#xa;[bpy.data.objects[&apos;Lamp&apos;], bpy.data.objects[&apos;Camera&apos;]]&#xa;&#xa;&gt;&gt;&gt; for ob in C.selected_objects:print(ob.name)&#xa;...&#xa;Lamp&#xa;Camera&#xa;&#xa;&gt;&gt;&gt; for ob in D.objects:print(ob.name)&#xa;...&#xa;Camera&#xa;Cube&#xa;Lamp&#xa;Sphere" ID="ID_1601717265" CREATED="1479033136827" MODIFIED="1479033617477"/>
+</node>
+</node>
+<node TEXT="Active Objects and&#xa;Selected Objects" FOLDED="true" ID="ID_1825296730" CREATED="1479033713184" MODIFIED="1479033729321">
+<node TEXT="&quot;Shift + D&quot; works on&#xa;selected objects" ID="ID_603430278" CREATED="1479033730454" MODIFIED="1479033749305"/>
+<node TEXT="&quot;Tab&quot; works on&#xa;Active Object" ID="ID_1849890808" CREATED="1479033752954" MODIFIED="1479033766334"/>
+</node>
+</node>
+<node TEXT="Write Scripts &amp;&#xa;Use Templates" ID="ID_1016774602" CREATED="1479104674229" MODIFIED="1479104695941"/>
+<node TEXT="Great Coders Steal" FOLDED="true" ID="ID_1393289250" CREATED="1479104709070" MODIFIED="1479104718749">
+<node TEXT="RMB on any UI &amp;&#xa;click &quot;Edit Source&quot;" ID="ID_755908250" CREATED="1479104743402" MODIFIED="1479104781476"/>
+<node TEXT="Change Editor type&#xa;to &quot;text block&quot;" ID="ID_1595780523" CREATED="1479104816658" MODIFIED="1479104841907"/>
+<node TEXT="Select new data block" ID="ID_1339341055" CREATED="1479104860815" MODIFIED="1479104871281"/>
 </node>
 </node>
 <node TEXT="Blender&#xa;Basics" FOLDED="true" ID="ID_891280193" CREATED="1472797652577" MODIFIED="1476464037503">
