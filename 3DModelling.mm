@@ -1,9 +1,9 @@
 <map version="freeplane 1.5.9">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="3D Modelling" FOLDED="false" ID="ID_1043183880" CREATED="1472796794111" MODIFIED="1472797106594" STYLE="oval">
+<node TEXT="3D Modeling" FOLDED="false" ID="ID_1043183880" CREATED="1472796794111" MODIFIED="1479705084550" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="4.0">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
+    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -1395,7 +1395,7 @@
 <node TEXT="Select new data block" ID="ID_1339341055" CREATED="1479104860815" MODIFIED="1479104871281"/>
 </node>
 </node>
-<node TEXT="Blender&#xa;Basics" FOLDED="true" ID="ID_891280193" CREATED="1472797652577" MODIFIED="1476464037503">
+<node TEXT="Blender&#xa;Basics" ID="ID_891280193" CREATED="1472797652577" MODIFIED="1476464037503">
 <font BOLD="true"/>
 <node TEXT="Verices Edges&#xa;and Faces" FOLDED="true" ID="ID_880682142" CREATED="1472894174114" MODIFIED="1472932108983">
 <node TEXT="Object Mode and Edit Mode" FOLDED="true" ID="ID_1680236222" CREATED="1472894196390" MODIFIED="1472894345980">
@@ -2809,6 +2809,11 @@
 </node>
 <node TEXT="Redo&#xa;Last Menu" FOLDED="true" ID="ID_1202941396" CREATED="1478974634217" MODIFIED="1478974642757">
 <node TEXT="&quot;F6&quot;" ID="ID_1986431569" CREATED="1478974644023" MODIFIED="1478974648074"/>
+</node>
+<node TEXT="Rendering a&#xa;Small Area" FOLDED="true" ID="ID_1121799899" CREATED="1478126172315" MODIFIED="1478126184466">
+<node TEXT="In Rendered&#xa;Shading" ID="ID_744664162" CREATED="1478126460637" MODIFIED="1478126487646"/>
+<node TEXT="Ctrl + B" ID="ID_1921671814" CREATED="1478126448412" MODIFIED="1478126452846"/>
+<node TEXT="Ctrl + Alt + B" ID="ID_1520766623" CREATED="1478126453288" MODIFIED="1478126458825"/>
 </node>
 </node>
 <node TEXT="Model&#xa;creation&#xa;process" FOLDED="true" ID="ID_452296087" CREATED="1474963433771" MODIFIED="1474963485394">
